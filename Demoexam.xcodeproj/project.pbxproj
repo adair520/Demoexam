@@ -37,6 +37,8 @@
 		37A6F2B820E13EA700D878AE /* Second06ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F2B720E13EA700D878AE /* Second06ViewController.swift */; };
 		37A6F2BA20E13EB700D878AE /* Third06ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F2B920E13EB700D878AE /* Third06ViewController.swift */; };
 		37A6F2C720E9201600D878AE /* BasicControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F2C620E9201600D878AE /* BasicControlsViewController.swift */; };
+		37F7E72F20EE19AD0046C45B /* Test08TableviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F7E72E20EE19AD0046C45B /* Test08TableviewViewController.swift */; };
+		37F7E73120EE19CE0046C45B /* Test09CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F7E73020EE19CE0046C45B /* Test09CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		37A6F2B720E13EA700D878AE /* Second06ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second06ViewController.swift; sourceTree = "<group>"; };
 		37A6F2B920E13EB700D878AE /* Third06ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Third06ViewController.swift; sourceTree = "<group>"; };
 		37A6F2C620E9201600D878AE /* BasicControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicControlsViewController.swift; sourceTree = "<group>"; };
+		37F7E72E20EE19AD0046C45B /* Test08TableviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test08TableviewViewController.swift; sourceTree = "<group>"; };
+		37F7E73020EE19CE0046C45B /* Test09CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test09CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +211,7 @@
 		37A6F2BD20E8E3CA00D878AE /* 08-UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				37F7E72E20EE19AD0046C45B /* Test08TableviewViewController.swift */,
 			);
 			path = "08-UITableView";
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 		37A6F2BE20E8E3E700D878AE /* 09-UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				37F7E73020EE19CE0046C45B /* Test09CollectionViewController.swift */,
 			);
 			path = "09-UICollectionView";
 			sourceTree = "<group>";
@@ -338,6 +344,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F7E72F20EE19AD0046C45B /* Test08TableviewViewController.swift in Sources */,
+				37F7E73120EE19CE0046C45B /* Test09CollectionViewController.swift in Sources */,
 				37A6F29420DA34BA00D878AE /* OldViewController.swift in Sources */,
 				37A6F29820DC079400D878AE /* First04ViewController.swift in Sources */,
 				37A6F2A120E0112700D878AE /* First05ViewController.swift in Sources */,
