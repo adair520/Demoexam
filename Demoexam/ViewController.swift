@@ -58,9 +58,9 @@ class ViewController: UIViewController {
         btn7.addTarget(self, action: #selector(ViewController.openBasicControls), for: .touchUpInside)
         self.view.addSubview(btn7)
         //08-tableview
-        let btn8 = UIButton(frame: CGRect(x: 10+btn7.frame.size.width, y: 210, width: (screenWidth-30)/2, height: 40))
+        let btn8 = UIButton(frame: CGRect(x: 20+btn7.frame.size.width, y: 210, width: (screenWidth-30)/2, height: 40))
         btn8.setTitle("08-TableView", for: UIControlState())
-        btn8.backgroundColor = UIColor.lightGray
+        btn8.backgroundColor = UIColor.black
         btn8.addTarget(self, action: #selector(ViewController.opentableview), for: .touchUpInside)
         self.view.addSubview(btn8)
         //09-collectionview
