@@ -49,12 +49,16 @@ class RefreshViewController: UIViewController,UITableViewDelegate,UITableViewDat
      
         let date = NSDate()
         let timeFormatter = DateFormatter()
-        timeFormatter.dateFormat = "yyy-MM-dd'at' HH:mm:ss:SSS"
+        timeFormatter.dateFormat = "yyy-MM-dd 'at' HH:mm:ss:SSS"
         let strnowtime = timeFormatter.string(from: date as Date) as String
         
         cell?.textLabel?.text = strnowtime
         
         return cell!
+    }
+    override func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
+        let basiccontrol = BasicControlsViewController()
+        self.present(basiccontrol, animated: true, completion: nil)
     }
     
     
