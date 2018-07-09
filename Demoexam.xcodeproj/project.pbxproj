@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */; };
+		379AC5FD20F321640090EACD /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FC20F321640090EACD /* MainNavViewController.swift */; };
 		37A6F26F20D9F26D00D878AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F26E20D9F26D00D878AE /* AppDelegate.swift */; };
 		37A6F27120D9F26D00D878AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F27020D9F26D00D878AE /* ViewController.swift */; };
 		37A6F27620D9F26D00D878AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A6F27520D9F26D00D878AE /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
+		379AC5FC20F321640090EACD /* MainNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
 		37A6F26B20D9F26D00D878AE /* Demoexam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demoexam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A6F26E20D9F26D00D878AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A6F27020D9F26D00D878AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		379AC5F920F320E30090EACD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */,
+				379AC5FC20F321640090EACD /* MainNavViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		37A6F26220D9F26D00D878AE = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +135,7 @@
 		37A6F26D20D9F26D00D878AE /* Demoexam */ = {
 			isa = PBXGroup;
 			children = (
+				379AC5F920F320E30090EACD /* Main */,
 				37A6F26E20D9F26D00D878AE /* AppDelegate.swift */,
 				37A6F27020D9F26D00D878AE /* ViewController.swift */,
 				37A6F27520D9F26D00D878AE /* Assets.xcassets */,
@@ -350,6 +364,7 @@
 				37A6F28E20DA321600D878AE /* RoundView.swift in Sources */,
 				37A6F29C20DC07B800D878AE /* Third04ViewController.swift in Sources */,
 				37F7E73320EE497E0046C45B /* RefreshViewController.swift in Sources */,
+				379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */,
 				37A6F2B020E13E1500D878AE /* TestSwitch.swift in Sources */,
 				37A6F29220DA332300D878AE /* TestViewController.swift in Sources */,
 				37A6F28620D9F2DF00D878AE /* PageViewController.swift in Sources */,
@@ -369,6 +384,7 @@
 				37A6F29F20DCBBD700D878AE /* Test04TabbarViewController.swift in Sources */,
 				37A6F2B420E13E6200D878AE /* TestTextField.swift in Sources */,
 				37A6F2A320E0113600D878AE /* Second05ViewController.swift in Sources */,
+				379AC5FD20F321640090EACD /* MainNavViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

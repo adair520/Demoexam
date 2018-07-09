@@ -16,19 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.backgroundColor = UIColor.gray
-        let mainTabbar = UITabBarController()
-        mainTabbar.tabBar.backgroundColor = UIColor.darkGray
-        let mainNav = UINavigationController()
-        mainNav.title = "home"
-        mainNav.tabBarController?.tabBarItem.image = UIImage(named: "tab1")
-        let vc2 = UITableViewController()
-        vc2.title = "mine"
-        vc2.tabBarController?.tabBarItem.image = UIImage(named: "tab2")
-        mainTabbar.viewControllers = [mainNav,vc2]
-        let  navonevc = ViewController()
-        mainNav.addChildViewController(navonevc)
+        let mainTabbar = MainTabbarViewController()
         self.window?.rootViewController = mainTabbar
+       
         self.window?.makeKeyAndVisible()
           
         return true
