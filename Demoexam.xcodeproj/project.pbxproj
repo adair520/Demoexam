@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */; };
-		379AC5FD20F321640090EACD /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FC20F321640090EACD /* MainNavViewController.swift */; };
+		379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */; };
+		379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60020F3F0070090EACD /* MainNavViewController.swift */; };
 		37A6F26F20D9F26D00D878AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F26E20D9F26D00D878AE /* AppDelegate.swift */; };
 		37A6F27120D9F26D00D878AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F27020D9F26D00D878AE /* ViewController.swift */; };
 		37A6F27620D9F26D00D878AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A6F27520D9F26D00D878AE /* Assets.xcassets */; };
@@ -44,7 +45,8 @@
 
 /* Begin PBXFileReference section */
 		379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
-		379AC5FC20F321640090EACD /* MainNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
+		379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
+		379AC60020F3F0070090EACD /* MainNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
 		37A6F26B20D9F26D00D878AE /* Demoexam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demoexam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A6F26E20D9F26D00D878AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A6F27020D9F26D00D878AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */,
-				379AC5FC20F321640090EACD /* MainNavViewController.swift */,
+				379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */,
+				379AC60020F3F0070090EACD /* MainNavViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				37F7E73320EE497E0046C45B /* RefreshViewController.swift in Sources */,
 				379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */,
 				37A6F2B020E13E1500D878AE /* TestSwitch.swift in Sources */,
+				379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */,
 				37A6F29220DA332300D878AE /* TestViewController.swift in Sources */,
 				37A6F28620D9F2DF00D878AE /* PageViewController.swift in Sources */,
 				37A6F2A820E0DDA100D878AE /* TestLabel.swift in Sources */,
@@ -375,6 +379,7 @@
 				37A6F2AC20E0DE3500D878AE /* Test06NavigationViewController.swift in Sources */,
 				37A6F29620DA352600D878AE /* NewViewController.swift in Sources */,
 				37A6F27120D9F26D00D878AE /* ViewController.swift in Sources */,
+				379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */,
 				37A6F26F20D9F26D00D878AE /* AppDelegate.swift in Sources */,
 				37A6F2AE20E0E86C00D878AE /* TestButton.swift in Sources */,
 				37A6F2AA20E0DE0500D878AE /* Test06TabbarViewController.swift in Sources */,
@@ -384,7 +389,6 @@
 				37A6F29F20DCBBD700D878AE /* Test04TabbarViewController.swift in Sources */,
 				37A6F2B420E13E6200D878AE /* TestTextField.swift in Sources */,
 				37A6F2A320E0113600D878AE /* Second05ViewController.swift in Sources */,
-				379AC5FD20F321640090EACD /* MainNavViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -33,7 +33,7 @@ class BasicControlsViewController: UIViewController {
     }
     @objc func openrefreshvc(){
         let refreshvc = RefreshViewController()
-        self.present(refreshvc, animated: true, completion: nil)
+        self.navigationController?.pushViewController(refreshvc, animated: true)
     }
     @objc func switchChange(){
         print("switchChanged")
