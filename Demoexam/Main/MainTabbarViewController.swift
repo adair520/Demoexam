@@ -15,10 +15,13 @@ class MainTabbarViewController: UITabBarController {
         
         let homevc = ViewController()
         let mainNav = UINavigationController(rootViewController: homevc)
+        mainNav.tabBarItem.image = UIImage(named: "home")?.withRenderingMode(.alwaysTemplate)
         let course = CourseTableViewController()
+        course.tabBarItem.image = UIImage(named: "tab1")?.withRenderingMode(.alwaysTemplate)
         let mine = UIViewController()
         mine.view.backgroundColor = UIColor.purple
         mine.title = "Mine"
+        mine.tabBarItem.image = UIImage(named: "mine")?.withRenderingMode(.alwaysTemplate)
         self.viewControllers = [mainNav,course,mine]
         self.tabBar.isTranslucent = false
  

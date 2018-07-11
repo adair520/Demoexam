@@ -12,7 +12,8 @@ class Test05NavigationViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.view.backgroundColor = UIColor.purple
+        
+        
     }
 
 }

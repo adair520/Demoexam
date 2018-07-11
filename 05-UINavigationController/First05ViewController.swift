@@ -28,7 +28,7 @@ class First05ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "第一页"
-        self.view.backgroundColor = UIColor.orange
+        self.view.backgroundColor = UIColor.white
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "下一页", style: UIBarButtonItemStyle.plain, target: self, action: #selector(First05ViewController.openNextPage))
 
     }

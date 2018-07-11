@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/adairwang/&#x79fb;&#x52a8;&#x5f00;&#x53d1;&#x4ed3;&#x5e93;/eBook/Demoexam/08-UITableView/Test08Tableviewcell.swift">
+   </FileRef>
+   <FileRef
       location = "group:Demoexam.xcodeproj">
    </FileRef>
 </Workspace>

@@ -113,7 +113,7 @@ class ViewController: UIViewController {
     @objc func openTestNavigationController() {
         let first05VC = First05ViewController()
         let test05NavigationVC = UINavigationController(rootViewController: first05VC)
-        self.navigationController?.pushViewController(test05NavigationVC, animated: true)
+        self.present(test05NavigationVC, animated: true, completion: nil)
         
         
     }

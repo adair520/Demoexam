@@ -11,8 +11,16 @@ import UIKit
 class TestTextField: UITextField {
     override init(frame: CGRect) {
         super .init(frame: frame)
-        self.backgroundColor = UIColor.orange
-         self.frame = CGRect(x: 100, y: 300, width: 100, height: 50)
+        self.backgroundColor = UIColor.darkGray
+        self.frame = CGRect(x: 100, y: 300, width: 100, height: 50)
+        self.borderStyle = .roundedRect
+        self.placeholder = "you email"
+        self.autocorrectionType = .no
+        self.returnKeyType = .done
+        self.clearButtonMode = .whileEditing
+        self.keyboardType = .emailAddress
+        self.keyboardAppearance = .dark
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -21,6 +29,9 @@ class TestTextField: UITextField {
     override func layoutSubviews() {
        
     }
+    
+    
+    
   
 
 }
