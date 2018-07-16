@@ -10,7 +10,9 @@
 		379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */; };
 		379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */; };
 		379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60020F3F0070090EACD /* MainNavViewController.swift */; };
-		379AC60520F6409A0090EACD /* Test08Tableviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60420F6409A0090EACD /* Test08Tableviewcell.swift */; };
+		379AC60720F71C6E0090EACD /* Test09CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60620F71C6E0090EACD /* Test09CollectionViewCell.swift */; };
+		379AC60920FCD7DA0090EACD /* MYTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60820FCD7DA0090EACD /* MYTableViewController.swift */; };
+		379AC61120FCD9D40090EACD /* Test08Tableviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC61020FCD9D40090EACD /* Test08Tableviewcell.swift */; };
 		37A6F26F20D9F26D00D878AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F26E20D9F26D00D878AE /* AppDelegate.swift */; };
 		37A6F27120D9F26D00D878AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F27020D9F26D00D878AE /* ViewController.swift */; };
 		37A6F27620D9F26D00D878AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A6F27520D9F26D00D878AE /* Assets.xcassets */; };
@@ -48,7 +50,9 @@
 		379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
 		379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
 		379AC60020F3F0070090EACD /* MainNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
-		379AC60420F6409A0090EACD /* Test08Tableviewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Test08Tableviewcell.swift; path = "/Users/adairwang/移动开发仓库/eBook/Demoexam/08-UITableView/Test08Tableviewcell.swift"; sourceTree = "<absolute>"; };
+		379AC60620F71C6E0090EACD /* Test09CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test09CollectionViewCell.swift; sourceTree = "<group>"; };
+		379AC60820FCD7DA0090EACD /* MYTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYTableViewController.swift; sourceTree = "<group>"; };
+		379AC61020FCD9D40090EACD /* Test08Tableviewcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test08Tableviewcell.swift; sourceTree = "<group>"; };
 		37A6F26B20D9F26D00D878AE /* Demoexam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demoexam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A6F26E20D9F26D00D878AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A6F27020D9F26D00D878AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -227,8 +231,9 @@
 		37A6F2BD20E8E3CA00D878AE /* 08-UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				379AC61020FCD9D40090EACD /* Test08Tableviewcell.swift */,
 				37F7E72E20EE19AD0046C45B /* Test08TableviewViewController.swift */,
-				379AC60420F6409A0090EACD /* Test08Tableviewcell.swift */,
+				379AC60820FCD7DA0090EACD /* MYTableViewController.swift */,
 			);
 			path = "08-UITableView";
 			sourceTree = "<group>";
@@ -237,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				37F7E73020EE19CE0046C45B /* Test09CollectionViewController.swift */,
+				379AC60620F71C6E0090EACD /* Test09CollectionViewCell.swift */,
 			);
 			path = "09-UICollectionView";
 			sourceTree = "<group>";
@@ -366,6 +372,7 @@
 				37A6F2A120E0112700D878AE /* First05ViewController.swift in Sources */,
 				37A6F2B620E13E9A00D878AE /* First06ViewController.swift in Sources */,
 				37A6F2A520E0132A00D878AE /* Test05NavigationViewController.swift in Sources */,
+				379AC60920FCD7DA0090EACD /* MYTableViewController.swift in Sources */,
 				37A6F28420D9F2C800D878AE /* SecondViewController.swift in Sources */,
 				37A6F28E20DA321600D878AE /* RoundView.swift in Sources */,
 				37A6F29C20DC07B800D878AE /* Third04ViewController.swift in Sources */,
@@ -374,14 +381,15 @@
 				37A6F2B020E13E1500D878AE /* TestSwitch.swift in Sources */,
 				379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */,
 				37A6F29220DA332300D878AE /* TestViewController.swift in Sources */,
-				379AC60520F6409A0090EACD /* Test08Tableviewcell.swift in Sources */,
 				37A6F28620D9F2DF00D878AE /* PageViewController.swift in Sources */,
 				37A6F2A820E0DDA100D878AE /* TestLabel.swift in Sources */,
 				37A6F2B220E13E4500D878AE /* TestRefreshControl.swift in Sources */,
+				379AC61120FCD9D40090EACD /* Test08Tableviewcell.swift in Sources */,
 				37A6F2C720E9201600D878AE /* BasicControlsViewController.swift in Sources */,
 				37A6F28220D9F2B500D878AE /* FirstViewController.swift in Sources */,
 				37A6F2AC20E0DE3500D878AE /* Test06NavigationViewController.swift in Sources */,
 				37A6F29620DA352600D878AE /* NewViewController.swift in Sources */,
+				379AC60720F71C6E0090EACD /* Test09CollectionViewCell.swift in Sources */,
 				37A6F27120D9F26D00D878AE /* ViewController.swift in Sources */,
 				379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */,
 				37A6F26F20D9F26D00D878AE /* AppDelegate.swift in Sources */,

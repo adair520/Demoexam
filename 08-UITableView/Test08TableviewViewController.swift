@@ -18,8 +18,17 @@ class Test08TableviewViewController: UIViewController,UITableViewDataSource {
         let tableView = UITableView(frame: tableRect)
         tableView.dataSource = self
         self.view.addSubview(tableView)
+        
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target:self, action: #selector(Test08TableviewViewController.openrightbuttonitem))
        
     }
+    @objc func openrightbuttonitem(){
+        
+          let mytableview = MYTableViewController()
+          self.navigationController?.pushViewController(mytableview, animated: true)
+        
+        }
+    
     
      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 20

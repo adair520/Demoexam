@@ -11,7 +11,7 @@ import UIKit
 class TestTextField: UITextField {
     override init(frame: CGRect) {
         super .init(frame: frame)
-        self.backgroundColor = UIColor.darkGray
+        self.backgroundColor = UIColor.white
         self.frame = CGRect(x: 100, y: 300, width: 100, height: 50)
         self.borderStyle = .roundedRect
         self.placeholder = "you email"
