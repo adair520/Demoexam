@@ -19,7 +19,7 @@ class Test08TableviewViewController: UIViewController,UITableViewDataSource {
         tableView.dataSource = self
         self.view.addSubview(tableView)
         
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target:self, action: #selector(Test08TableviewViewController.openrightbuttonitem))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target:self, action: #selector(Test08TableviewViewController.openrightbuttonitem))
        
     }
     @objc func openrightbuttonitem(){
