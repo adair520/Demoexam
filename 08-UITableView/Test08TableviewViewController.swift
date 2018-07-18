@@ -24,7 +24,7 @@ class Test08TableviewViewController: UIViewController,UITableViewDataSource {
     }
     @objc func openrightbuttonitem(){
         
-          let mytableview = MYTableViewController()
+          let mytableview = IndexTableViewController()
           self.navigationController?.pushViewController(mytableview, animated: true)
         
         }
