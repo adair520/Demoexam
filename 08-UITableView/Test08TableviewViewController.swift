@@ -18,14 +18,20 @@ class Test08TableviewViewController: UIViewController,UITableViewDataSource {
         let tableView = UITableView(frame: tableRect)
         tableView.dataSource = self
         self.view.addSubview(tableView)
+        let item1 =  UIBarButtonItem(barButtonSystemItem: .done, target:self, action: #selector(Test08TableviewViewController.openrightbuttonitem))
+        let item2 = UIBarButtonItem(barButtonSystemItem: .add, target:self, action: #selector(Test08TableviewViewController.openrightitem2buttonitem))
         
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target:self, action: #selector(Test08TableviewViewController.openrightbuttonitem))
+        self.navigationItem.rightBarButtonItems = [item1,item2]
        
+    }
+    @objc func openrightitem2buttonitem(){
+        let mytableview = MYTableViewController()
+        self.navigationController?.pushViewController(mytableview, animated: true)
     }
     @objc func openrightbuttonitem(){
         
-          let mytableview = IndexTableViewController()
-          self.navigationController?.pushViewController(mytableview, animated: true)
+          let indextableview = IndexTableViewController()
+          self.navigationController?.pushViewController(indextableview, animated: true)
         
         }
     

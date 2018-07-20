@@ -14,8 +14,26 @@ class MainNavViewController: UINavigationController {
         super.viewDidLoad()
         self.isNavigationBarHidden = true //上部的导航栏
         self.isToolbarHidden = true //底部的状态栏
-
+        let itemleft1 = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(MainNavViewController.oepnleftitem))
+         let itemleft2 = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(MainNavViewController.oepnleftitem))
+         let itemleft3 = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(MainNavViewController.oepnleftitem))
+        let itemleft4 = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action:
+            #selector(MainNavViewController.oepnleftitem))
+        
+        self.navigationItem.leftBarButtonItems =  [itemleft1,itemleft2]
+        self.navigationItem.rightBarButtonItems = [itemleft3,itemleft4]
     }
+    @objc func oepnleftitem(){
+        
+    }
+    @objc func oepnrightitem(){
+        
+    }
+    
+    
+    
+    
+    
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         
         if self.viewControllers.count>0 {
