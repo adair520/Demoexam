@@ -56,6 +56,7 @@ class MYTableViewController: UITableViewController {
         {
          cell?.textLabel?.text = "有的是机会，别急"
         }
+        print(indexPath.row)
         return cell!
 
     }

@@ -12,6 +12,8 @@ class MainNavViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationBar.backgroundColor = UIColor.darkGray
+        self.view.backgroundColor = UIColor.lightGray
         self.isNavigationBarHidden = true //上部的导航栏
         self.isToolbarHidden = true //底部的状态栏
         let itemleft1 = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(MainNavViewController.oepnleftitem))

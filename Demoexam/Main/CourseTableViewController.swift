@@ -9,7 +9,7 @@
 import UIKit
 
 class CourseTableViewController: UITableViewController {
-
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Course"

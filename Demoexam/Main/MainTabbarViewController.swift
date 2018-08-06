@@ -12,16 +12,21 @@ class MainTabbarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //self.tabBar.isTranslucent = false
+        //self.tabBar.tintColor = UIColor.yellow
+        //self.tabBar.barTintColor = UIColor.white
         
-        let homevc = ViewController()
+        let homevc = HomeTableViewController()
         let mainNav = UINavigationController(rootViewController: homevc)
-        mainNav.tabBarItem.image = UIImage(named: "home")?.withRenderingMode(.alwaysTemplate)
-        let course = CourseTableViewController()
-        course.tabBarItem.image = UIImage(named: "tab1")?.withRenderingMode(.alwaysTemplate)
+        mainNav.tabBarItem.image = UIImage(named: "tabBar_home")
+        mainNav.tabBarItem.selectedImage = UIImage(named: "tabBar_home_click")
+        let course = MiddleViewController()
+        course.tabBarItem.image = UIImage(named: "plus")?.withRenderingMode(.alwaysTemplate)
         let mine = UIViewController()
-        mine.view.backgroundColor = UIColor.purple
+        mine.view.backgroundColor = UIColor.white
         mine.title = "Mine"
-        mine.tabBarItem.image = UIImage(named: "mine")?.withRenderingMode(.alwaysTemplate)
+        mine.tabBarItem.image = UIImage(named: "tabBar_me")?.withRenderingMode(.alwaysTemplate)
+        mine.tabBarItem.selectedImage = UIImage(named: "tabBar_me_click")?.withRenderingMode(.alwaysTemplate)
         self.viewControllers = [mainNav,course,mine]
         self.tabBar.isTranslucent = false
  
