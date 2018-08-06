@@ -20,8 +20,8 @@ class MainTabbarViewController: UITabBarController {
         let mainNav = UINavigationController(rootViewController: homevc)
         mainNav.tabBarItem.image = UIImage(named: "tabBar_home")
         mainNav.tabBarItem.selectedImage = UIImage(named: "tabBar_home_click")
-        let course = MiddleViewController()
-        course.tabBarItem.image = UIImage(named: "plus")?.withRenderingMode(.alwaysTemplate)
+        let course = CourseTableViewController()
+        course.tabBarItem.image = UIImage(named: "plus")
         let mine = UIViewController()
         mine.view.backgroundColor = UIColor.white
         mine.title = "Mine"

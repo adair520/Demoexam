@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		376EBC5F21186AD100AD73EC /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */; };
+		376EBC612118A99400AD73EC /* swift3中文版.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 376EBC602118A99400AD73EC /* swift3中文版.pdf */; };
+		376EBC642118AC1E00AD73EC /* swift4英文版.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 376EBC632118AC1E00AD73EC /* swift4英文版.pdf */; };
 		379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */; };
 		379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */; };
 		379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60020F3F0070090EACD /* MainNavViewController.swift */; };
@@ -16,7 +18,6 @@
 		379AC61120FCD9D40090EACD /* Test08Tableviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC61020FCD9D40090EACD /* Test08Tableviewcell.swift */; };
 		379AC61320FCE0160090EACD /* IndexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC61220FCE0160090EACD /* IndexTableViewController.swift */; };
 		379AC6152105FFCA0090EACD /* TestTableviewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC6142105FFCA0090EACD /* TestTableviewListViewController.swift */; };
-		379AC617210735FC0090EACD /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC616210735FC0090EACD /* MiddleViewController.swift */; };
 		379AC619210737B00090EACD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC618210737B00090EACD /* DetailViewController.swift */; };
 		37A6F26F20D9F26D00D878AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F26E20D9F26D00D878AE /* AppDelegate.swift */; };
 		37A6F27120D9F26D00D878AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F27020D9F26D00D878AE /* ViewController.swift */; };
@@ -53,6 +54,8 @@
 
 /* Begin PBXFileReference section */
 		376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		376EBC602118A99400AD73EC /* swift3中文版.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "swift3中文版.pdf"; sourceTree = "<group>"; };
+		376EBC632118AC1E00AD73EC /* swift4英文版.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "swift4英文版.pdf"; sourceTree = "<group>"; };
 		379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
 		379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
 		379AC60020F3F0070090EACD /* MainNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +64,6 @@
 		379AC61020FCD9D40090EACD /* Test08Tableviewcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test08Tableviewcell.swift; sourceTree = "<group>"; };
 		379AC61220FCE0160090EACD /* IndexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexTableViewController.swift; sourceTree = "<group>"; };
 		379AC6142105FFCA0090EACD /* TestTableviewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableviewListViewController.swift; sourceTree = "<group>"; };
-		379AC616210735FC0090EACD /* MiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
 		379AC618210737B00090EACD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		37A6F26B20D9F26D00D878AE /* Demoexam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demoexam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A6F26E20D9F26D00D878AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,11 +114,12 @@
 		379AC5F920F320E30090EACD /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				376EBC632118AC1E00AD73EC /* swift4英文版.pdf */,
+				376EBC602118A99400AD73EC /* swift3中文版.pdf */,
 				379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */,
 				376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */,
 				379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */,
 				379AC60020F3F0070090EACD /* MainNavViewController.swift */,
-				379AC616210735FC0090EACD /* MiddleViewController.swift */,
 				379AC618210737B00090EACD /* DetailViewController.swift */,
 			);
 			path = Main;
@@ -370,6 +373,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A6F27620D9F26D00D878AE /* Assets.xcassets in Resources */,
+				376EBC612118A99400AD73EC /* swift3中文版.pdf in Resources */,
+				376EBC642118AC1E00AD73EC /* swift4英文版.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +416,6 @@
 				37A6F27120D9F26D00D878AE /* ViewController.swift in Sources */,
 				379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */,
 				37A6F26F20D9F26D00D878AE /* AppDelegate.swift in Sources */,
-				379AC617210735FC0090EACD /* MiddleViewController.swift in Sources */,
 				37A6F2AE20E0E86C00D878AE /* TestButton.swift in Sources */,
 				37A6F2AA20E0DE0500D878AE /* Test06TabbarViewController.swift in Sources */,
 				379AC61320FCE0160090EACD /* IndexTableViewController.swift in Sources */,

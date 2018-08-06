@@ -17,7 +17,7 @@ class RefreshViewController: UIViewController,UITableViewDelegate,UITableViewDat
         self.view.backgroundColor = UIColor.white
         tableview = UITableView(frame: self.view.frame)
         
-        self.automaticallyAdjustsScrollViewInsets = false
+      //self.automaticallyAdjustsScrollViewInsets = false
         refreshControl.addTarget(self, action: #selector(RefreshViewController.openrefresh), for: .valueChanged)
         refreshControl.attributedTitle = NSAttributedString(string: "松开自动刷新")
         tableview.delegate = self

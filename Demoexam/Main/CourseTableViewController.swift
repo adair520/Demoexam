@@ -8,40 +8,15 @@
 
 import UIKit
 
-class CourseTableViewController: UITableViewController {
-  
+class CourseTableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Course"
-
+        let path = Bundle.main.path(forResource: "swift3中文版", ofType: "pdf")
+        let url = URL.init(fileURLWithPath: path!)
+        let data = try!Data(contentsOf: url)
+        let webview = UIWebView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
+        webview.load(data, mimeType: "application/pdf", textEncodingName: "utf-8", baseURL: NSURL() as URL)
+        self.view.addSubview(webview)
     }
-
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-     
-        return 1
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    
-        return 20
-    }
-
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let  cellid = "cellID"
-        var cell = self.tableView.dequeueReusableCell(withIdentifier: cellid)
-        if (cell == nil) {
-            cell = UITableViewCell(style: .default, reuseIdentifier: cellid)
-        }
-        
-        let date = NSDate()
-        let timeFormatter = DateFormatter()
-        timeFormatter.dateFormat = "yyy-MM-dd 'at' HH:mm:ss:SSS"
-        let strnowtime = timeFormatter.string(from: date as Date) as String
-        
-        cell?.textLabel?.text = strnowtime
-        return cell!
-    }
- 
-
 }
