@@ -12,17 +12,17 @@ class MYTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let screenRect = UIScreen.main.bounds.size
-        self.tableView.frame = CGRect(x: 0, y: 20, width: screenRect.width, height: screenRect.height)
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(MYTableViewController.openindextableview))
+//        let screenRect = UIScreen.main.bounds.size
+//        self.tableView.frame = CGRect(x: 0, y: 20, width: screenRect.width, height: screenRect.height)
+//        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(MYTableViewController.openindextableview))
         
     }
     
-    @objc func  openindextableview(){
-        let indextableview = IndexTableViewController()
-        self.navigationController?.pushViewController(indextableview, animated: true)
-    }
-    
+//    @objc func  openindextableview(){
+//        let indextableview = IndexTableViewController()
+//        self.navigationController?.pushViewController(indextableview, animated: true)
+//    }
+//
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if ((indexPath as NSIndexPath).row % 2  == 0) {
             return 104
@@ -33,12 +33,12 @@ class MYTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
 
-        return 1
+        return 3
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 20
+        return 5
     }
 
     
@@ -46,18 +46,22 @@ class MYTableViewController: UITableViewController {
         let cellid = "reuseIdentifier"
         var cell = tableView.dequeueReusableCell(withIdentifier: cellid)
         if (cell == nil) {
-            cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: cellid)
+            cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellid)
         }
         if((indexPath as NSIndexPath).row % 2 == 0)
         {
-            cell?.imageView?.image = UIImage(named: "mine")
+            cell?.imageView?.image = UIImage(named: "tableviewcell")
+            cell?.textLabel?.text = "修改了高度"
+            cell?.detailTextLabel?.text = "副标题"
             
         }else
         {
-         cell?.textLabel?.text = "有的是机会，别急"
+            cell?.imageView?.image = UIImage(named: "tableviewcell")
+            cell?.textLabel?.text = "没有修改高度"
+            cell?.detailTextLabel?.text = "副标题"
         }
-        print(indexPath.row)
         return cell!
+        
 
     }
  

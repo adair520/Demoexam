@@ -20,14 +20,19 @@ class MainTabbarViewController: UITabBarController {
         let mainNav = UINavigationController(rootViewController: homevc)
         mainNav.tabBarItem.image = UIImage(named: "tabBar_home")
         mainNav.tabBarItem.selectedImage = UIImage(named: "tabBar_home_click")
-        let course = CourseTableViewController()
-        course.tabBarItem.image = UIImage(named: "plus")
-        let mine = UIViewController()
-        mine.view.backgroundColor = UIColor.white
-        mine.title = "Mine"
-        mine.tabBarItem.image = UIImage(named: "tabBar_me")?.withRenderingMode(.alwaysTemplate)
-        mine.tabBarItem.selectedImage = UIImage(named: "tabBar_me_click")?.withRenderingMode(.alwaysTemplate)
-        self.viewControllers = [mainNav,course,mine]
+        
+        let courseVC = CourseTableViewController()
+        let courseNav = UINavigationController(rootViewController: courseVC)
+        courseNav.tabBarItem.image = UIImage(named: "plus")
+        courseVC.title = "语法"
+        
+        let mineVC = MineTableViewController()
+        let mineNav = UINavigationController(rootViewController: mineVC)
+        mineNav.tabBarItem.image = UIImage(named: "tabBar_me")
+        mineNav.tabBarItem.selectedImage = UIImage(named: "tabBar_me_click")
+        mineNav.title = "我"
+        
+        self.viewControllers = [mainNav,courseNav,mineNav]
         self.tabBar.isTranslucent = false
  
         //setUpTabbar()

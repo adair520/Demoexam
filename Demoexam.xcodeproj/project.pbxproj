@@ -10,6 +10,15 @@
 		376EBC5F21186AD100AD73EC /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */; };
 		376EBC612118A99400AD73EC /* swift3中文版.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 376EBC602118A99400AD73EC /* swift3中文版.pdf */; };
 		376EBC642118AC1E00AD73EC /* swift4英文版.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 376EBC632118AC1E00AD73EC /* swift4英文版.pdf */; };
+		376EBC66211C4BB900AD73EC /* MineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC65211C4BB900AD73EC /* MineTableViewController.swift */; };
+		376EBC6A211C4D2200AD73EC /* ReadMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC69211C4D2200AD73EC /* ReadMeViewController.swift */; };
+		376EBC6C211C4DEB00AD73EC /* ReadmeotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC6B211C4DEB00AD73EC /* ReadmeotherViewController.swift */; };
+		376EBC6E211C61DF00AD73EC /* SysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC6D211C61DF00AD73EC /* SysTableViewController.swift */; };
+		376EBC70211C6D5D00AD73EC /* MyCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC6F211C6D5D00AD73EC /* MyCellTableViewController.swift */; };
+		376EBC722120802D00AD73EC /* SelectedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC712120802D00AD73EC /* SelectedTableViewController.swift */; };
+		376EBC742120804000AD73EC /* InsertTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC732120804000AD73EC /* InsertTableViewController.swift */; };
+		376EBC762120805300AD73EC /* RemoveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC752120805300AD73EC /* RemoveTableViewController.swift */; };
+		376EBC782120808500AD73EC /* NestedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC772120808500AD73EC /* NestedTableViewController.swift */; };
 		379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */; };
 		379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */; };
 		379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60020F3F0070090EACD /* MainNavViewController.swift */; };
@@ -17,8 +26,6 @@
 		379AC60920FCD7DA0090EACD /* MYTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60820FCD7DA0090EACD /* MYTableViewController.swift */; };
 		379AC61120FCD9D40090EACD /* Test08Tableviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC61020FCD9D40090EACD /* Test08Tableviewcell.swift */; };
 		379AC61320FCE0160090EACD /* IndexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC61220FCE0160090EACD /* IndexTableViewController.swift */; };
-		379AC6152105FFCA0090EACD /* TestTableviewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC6142105FFCA0090EACD /* TestTableviewListViewController.swift */; };
-		379AC619210737B00090EACD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC618210737B00090EACD /* DetailViewController.swift */; };
 		37A6F26F20D9F26D00D878AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F26E20D9F26D00D878AE /* AppDelegate.swift */; };
 		37A6F27120D9F26D00D878AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F27020D9F26D00D878AE /* ViewController.swift */; };
 		37A6F27620D9F26D00D878AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A6F27520D9F26D00D878AE /* Assets.xcassets */; };
@@ -56,6 +63,15 @@
 		376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		376EBC602118A99400AD73EC /* swift3中文版.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "swift3中文版.pdf"; sourceTree = "<group>"; };
 		376EBC632118AC1E00AD73EC /* swift4英文版.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "swift4英文版.pdf"; sourceTree = "<group>"; };
+		376EBC65211C4BB900AD73EC /* MineTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineTableViewController.swift; sourceTree = "<group>"; };
+		376EBC69211C4D2200AD73EC /* ReadMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMeViewController.swift; sourceTree = "<group>"; };
+		376EBC6B211C4DEB00AD73EC /* ReadmeotherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadmeotherViewController.swift; sourceTree = "<group>"; };
+		376EBC6D211C61DF00AD73EC /* SysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysTableViewController.swift; sourceTree = "<group>"; };
+		376EBC6F211C6D5D00AD73EC /* MyCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellTableViewController.swift; sourceTree = "<group>"; };
+		376EBC712120802D00AD73EC /* SelectedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedTableViewController.swift; sourceTree = "<group>"; };
+		376EBC732120804000AD73EC /* InsertTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTableViewController.swift; sourceTree = "<group>"; };
+		376EBC752120805300AD73EC /* RemoveTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveTableViewController.swift; sourceTree = "<group>"; };
+		376EBC772120808500AD73EC /* NestedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewController.swift; sourceTree = "<group>"; };
 		379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
 		379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
 		379AC60020F3F0070090EACD /* MainNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
@@ -63,8 +79,6 @@
 		379AC60820FCD7DA0090EACD /* MYTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYTableViewController.swift; sourceTree = "<group>"; };
 		379AC61020FCD9D40090EACD /* Test08Tableviewcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test08Tableviewcell.swift; sourceTree = "<group>"; };
 		379AC61220FCE0160090EACD /* IndexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexTableViewController.swift; sourceTree = "<group>"; };
-		379AC6142105FFCA0090EACD /* TestTableviewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableviewListViewController.swift; sourceTree = "<group>"; };
-		379AC618210737B00090EACD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		37A6F26B20D9F26D00D878AE /* Demoexam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demoexam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A6F26E20D9F26D00D878AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A6F27020D9F26D00D878AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +125,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		376EBC68211C4CEE00AD73EC /* 00-ReadMe */ = {
+			isa = PBXGroup;
+			children = (
+				376EBC69211C4D2200AD73EC /* ReadMeViewController.swift */,
+				376EBC6B211C4DEB00AD73EC /* ReadmeotherViewController.swift */,
+			);
+			path = "00-ReadMe";
+			sourceTree = "<group>";
+		};
 		379AC5F920F320E30090EACD /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +143,7 @@
 				376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */,
 				379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */,
 				379AC60020F3F0070090EACD /* MainNavViewController.swift */,
-				379AC618210737B00090EACD /* DetailViewController.swift */,
+				376EBC65211C4BB900AD73EC /* MineTableViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -144,6 +167,7 @@
 				37A6F28020D9F27800D878AE /* 03-UIScrollView */,
 				37A6F28A20D9F89F00D878AE /* 02-UIViewController */,
 				37A6F28920D9F7F900D878AE /* 01-UIView */,
+				376EBC68211C4CEE00AD73EC /* 00-ReadMe */,
 				37A6F26D20D9F26D00D878AE /* Demoexam */,
 				37A6F26C20D9F26D00D878AE /* Products */,
 			);
@@ -248,10 +272,15 @@
 			isa = PBXGroup;
 			children = (
 				37F7E72E20EE19AD0046C45B /* Test08TableviewViewController.swift */,
-				379AC61020FCD9D40090EACD /* Test08Tableviewcell.swift */,
+				376EBC6D211C61DF00AD73EC /* SysTableViewController.swift */,
 				379AC60820FCD7DA0090EACD /* MYTableViewController.swift */,
+				376EBC6F211C6D5D00AD73EC /* MyCellTableViewController.swift */,
+				379AC61020FCD9D40090EACD /* Test08Tableviewcell.swift */,
 				379AC61220FCE0160090EACD /* IndexTableViewController.swift */,
-				379AC6142105FFCA0090EACD /* TestTableviewListViewController.swift */,
+				376EBC712120802D00AD73EC /* SelectedTableViewController.swift */,
+				376EBC732120804000AD73EC /* InsertTableViewController.swift */,
+				376EBC752120805300AD73EC /* RemoveTableViewController.swift */,
+				376EBC772120808500AD73EC /* NestedTableViewController.swift */,
 			);
 			path = "08-UITableView";
 			sourceTree = "<group>";
@@ -385,14 +414,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				379AC6152105FFCA0090EACD /* TestTableviewListViewController.swift in Sources */,
+				376EBC70211C6D5D00AD73EC /* MyCellTableViewController.swift in Sources */,
+				376EBC66211C4BB900AD73EC /* MineTableViewController.swift in Sources */,
 				37F7E72F20EE19AD0046C45B /* Test08TableviewViewController.swift in Sources */,
 				37F7E73120EE19CE0046C45B /* Test09CollectionViewController.swift in Sources */,
 				37A6F29420DA34BA00D878AE /* OldViewController.swift in Sources */,
 				37A6F29820DC079400D878AE /* First04ViewController.swift in Sources */,
 				37A6F2A120E0112700D878AE /* First05ViewController.swift in Sources */,
 				37A6F2B620E13E9A00D878AE /* First06ViewController.swift in Sources */,
-				379AC619210737B00090EACD /* DetailViewController.swift in Sources */,
 				37A6F2A520E0132A00D878AE /* Test05NavigationViewController.swift in Sources */,
 				379AC60920FCD7DA0090EACD /* MYTableViewController.swift in Sources */,
 				37A6F28420D9F2C800D878AE /* SecondViewController.swift in Sources */,
@@ -402,6 +431,7 @@
 				376EBC5F21186AD100AD73EC /* HomeTableViewController.swift in Sources */,
 				379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */,
 				37A6F2B020E13E1500D878AE /* TestSwitch.swift in Sources */,
+				376EBC762120805300AD73EC /* RemoveTableViewController.swift in Sources */,
 				379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */,
 				37A6F29220DA332300D878AE /* TestViewController.swift in Sources */,
 				37A6F28620D9F2DF00D878AE /* PageViewController.swift in Sources */,
@@ -409,20 +439,26 @@
 				37A6F2B220E13E4500D878AE /* TestRefreshControl.swift in Sources */,
 				379AC61120FCD9D40090EACD /* Test08Tableviewcell.swift in Sources */,
 				37A6F2C720E9201600D878AE /* BasicControlsViewController.swift in Sources */,
+				376EBC722120802D00AD73EC /* SelectedTableViewController.swift in Sources */,
 				37A6F28220D9F2B500D878AE /* FirstViewController.swift in Sources */,
 				37A6F2AC20E0DE3500D878AE /* Test06NavigationViewController.swift in Sources */,
 				37A6F29620DA352600D878AE /* NewViewController.swift in Sources */,
 				379AC60720F71C6E0090EACD /* Test09CollectionViewCell.swift in Sources */,
 				37A6F27120D9F26D00D878AE /* ViewController.swift in Sources */,
+				376EBC782120808500AD73EC /* NestedTableViewController.swift in Sources */,
 				379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */,
 				37A6F26F20D9F26D00D878AE /* AppDelegate.swift in Sources */,
 				37A6F2AE20E0E86C00D878AE /* TestButton.swift in Sources */,
 				37A6F2AA20E0DE0500D878AE /* Test06TabbarViewController.swift in Sources */,
 				379AC61320FCE0160090EACD /* IndexTableViewController.swift in Sources */,
+				376EBC6A211C4D2200AD73EC /* ReadMeViewController.swift in Sources */,
 				37A6F2BA20E13EB700D878AE /* Third06ViewController.swift in Sources */,
 				37A6F2B820E13EA700D878AE /* Second06ViewController.swift in Sources */,
+				376EBC742120804000AD73EC /* InsertTableViewController.swift in Sources */,
 				37A6F29A20DC07A700D878AE /* Second04ViewController.swift in Sources */,
 				37A6F29F20DCBBD700D878AE /* Test04TabbarViewController.swift in Sources */,
+				376EBC6C211C4DEB00AD73EC /* ReadmeotherViewController.swift in Sources */,
+				376EBC6E211C61DF00AD73EC /* SysTableViewController.swift in Sources */,
 				37A6F2B420E13E6200D878AE /* TestTextField.swift in Sources */,
 				37A6F2A320E0113600D878AE /* Second05ViewController.swift in Sources */,
 			);

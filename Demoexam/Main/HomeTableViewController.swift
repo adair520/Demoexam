@@ -14,7 +14,7 @@ class HomeTableViewController: UITableViewController {
                        "07.BasicController","08.UITableviewVC","09.UICollectionView","10.触控技术","11.多媒体技术","12.网络请求","13.UIWebView+HTML5","14.数据存储","15.多线程技术","16.MapKit"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Home"
+        self.title = "首页"
     }
 
 
@@ -43,12 +43,12 @@ class HomeTableViewController: UITableViewController {
         let test05 = Test05NavigationViewController()
         let test06 = Test06TabbarViewController()
         let test07 = BasicControlsViewController()
-        let test08 = UINavigationController(rootViewController:Test08TableviewViewController())
+        let test08 = Test08TableviewViewController()
         let test09 = Test09CollectionViewController()
        
         let contentListVC = [test01,test02,test03,test04,test05,test06,test07,test08,test09]
-        
-        self.present(contentListVC[indexPath.row], animated: true, completion: nil)
+        self.navigationController?.pushViewController(contentListVC[indexPath.row], animated: true)
+        //self.present(contentListVC[indexPath.row], animated: true, completion: nil)
         
     }
 

@@ -11,7 +11,6 @@ import UIKit
 class CourseTableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Course"
         let path = Bundle.main.path(forResource: "swift3中文版", ofType: "pdf")
         let url = URL.init(fileURLWithPath: path!)
         let data = try!Data(contentsOf: url)
