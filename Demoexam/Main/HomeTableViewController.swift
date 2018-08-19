@@ -15,6 +15,29 @@ class HomeTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "首页"
+        setupleftbtn()
+        setuprightbtn()
+        
+    }
+    
+   func setupleftbtn(){
+        let leftitem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(HomeTableViewController.openleftVC))
+        leftitem.title = "点击左边"
+        self.navigationController?.navigationItem.leftBarButtonItem = leftitem
+        
+    }
+   
+   func setuprightbtn(){
+        let rightitem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(HomeTableViewController.openrightVC))
+        rightitem.title = "点击右边边"
+        self.navigationController?.navigationItem.leftBarButtonItem = rightitem
+        
+    }
+    @objc  func openleftVC(){
+        
+    }
+    @objc   func openrightVC(){
+        
     }
 
 
@@ -30,8 +53,10 @@ class HomeTableViewController: UITableViewController {
         if (cell == nil) {
             cell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: cellID)
         }
+        cell?.imageView?.image = UIImage(named: "titlecell")
         cell?.textLabel?.text = contentList[indexPath.row]
         cell?.accessoryType = .disclosureIndicator
+        cell?.backgroundColor = UIColor.init(red: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), green: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), blue: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), alpha: 0.5)
 
         return cell!
     }
@@ -45,8 +70,10 @@ class HomeTableViewController: UITableViewController {
         let test07 = BasicControlsViewController()
         let test08 = Test08TableviewViewController()
         let test09 = Test09CollectionViewController()
+        let test10 = Gesture10TableViewController()
+        let test11 = Media11ViewController()
        
-        let contentListVC = [test01,test02,test03,test04,test05,test06,test07,test08,test09]
+        let contentListVC = [test01,test02,test03,test04,test05,test06,test07,test08,test09,test10,test11]
         self.navigationController?.pushViewController(contentListVC[indexPath.row], animated: true)
         //self.present(contentListVC[indexPath.row], animated: true, completion: nil)
         

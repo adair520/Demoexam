@@ -19,6 +19,14 @@
 		376EBC742120804000AD73EC /* InsertTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC732120804000AD73EC /* InsertTableViewController.swift */; };
 		376EBC762120805300AD73EC /* RemoveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC752120805300AD73EC /* RemoveTableViewController.swift */; };
 		376EBC782120808500AD73EC /* NestedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC772120808500AD73EC /* NestedTableViewController.swift */; };
+		376EBC7B21231A1C00AD73EC /* Test09MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC7A21231A1C00AD73EC /* Test09MyCollectionViewController.swift */; };
+		376EBC7D21231C5700AD73EC /* Gesture10TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC7C21231C5700AD73EC /* Gesture10TableViewController.swift */; };
+		376EBC7F2127052F00AD73EC /* CheckGesture10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC7E2127052F00AD73EC /* CheckGesture10ViewController.swift */; };
+		376EBC8121294BFA00AD73EC /* Media11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC8021294BFA00AD73EC /* Media11ViewController.swift */; };
+		376EBC83212950B700AD73EC /* Animation11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC82212950B700AD73EC /* Animation11ViewController.swift */; };
+		376EBC85212950C900AD73EC /* Radio11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC84212950C900AD73EC /* Radio11ViewController.swift */; };
+		376EBC87212950D700AD73EC /* Video11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC86212950D700AD73EC /* Video11ViewController.swift */; };
+		376EBC89212950F000AD73EC /* RadioVideo11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC88212950F000AD73EC /* RadioVideo11ViewController.swift */; };
 		379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */; };
 		379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */; };
 		379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60020F3F0070090EACD /* MainNavViewController.swift */; };
@@ -72,6 +80,14 @@
 		376EBC732120804000AD73EC /* InsertTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertTableViewController.swift; sourceTree = "<group>"; };
 		376EBC752120805300AD73EC /* RemoveTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveTableViewController.swift; sourceTree = "<group>"; };
 		376EBC772120808500AD73EC /* NestedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTableViewController.swift; sourceTree = "<group>"; };
+		376EBC7A21231A1C00AD73EC /* Test09MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test09MyCollectionViewController.swift; sourceTree = "<group>"; };
+		376EBC7C21231C5700AD73EC /* Gesture10TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture10TableViewController.swift; sourceTree = "<group>"; };
+		376EBC7E2127052F00AD73EC /* CheckGesture10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckGesture10ViewController.swift; sourceTree = "<group>"; };
+		376EBC8021294BFA00AD73EC /* Media11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media11ViewController.swift; sourceTree = "<group>"; };
+		376EBC82212950B700AD73EC /* Animation11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation11ViewController.swift; sourceTree = "<group>"; };
+		376EBC84212950C900AD73EC /* Radio11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio11ViewController.swift; sourceTree = "<group>"; };
+		376EBC86212950D700AD73EC /* Video11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video11ViewController.swift; sourceTree = "<group>"; };
+		376EBC88212950F000AD73EC /* RadioVideo11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioVideo11ViewController.swift; sourceTree = "<group>"; };
 		379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
 		379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
 		379AC60020F3F0070090EACD /* MainNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +150,13 @@
 			path = "00-ReadMe";
 			sourceTree = "<group>";
 		};
+		376EBC792121DD7E00AD73EC /* 17-项目案例 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "17-项目案例";
+			sourceTree = "<group>";
+		};
 		379AC5F920F320E30090EACD /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +174,7 @@
 		37A6F26220D9F26D00D878AE = {
 			isa = PBXGroup;
 			children = (
+				376EBC792121DD7E00AD73EC /* 17-项目案例 */,
 				37A6F2C520E8E4A900D878AE /* 16-MapKit */,
 				37A6F2C420E8E49500D878AE /* 15-多线程技术 */,
 				37A6F2C320E8E48A00D878AE /* 14-数据存储 */,
@@ -290,6 +314,7 @@
 			children = (
 				37F7E73020EE19CE0046C45B /* Test09CollectionViewController.swift */,
 				379AC60620F71C6E0090EACD /* Test09CollectionViewCell.swift */,
+				376EBC7A21231A1C00AD73EC /* Test09MyCollectionViewController.swift */,
 			);
 			path = "09-UICollectionView";
 			sourceTree = "<group>";
@@ -297,6 +322,8 @@
 		37A6F2BF20E8E41500D878AE /* 10-触控技术 */ = {
 			isa = PBXGroup;
 			children = (
+				376EBC7C21231C5700AD73EC /* Gesture10TableViewController.swift */,
+				376EBC7E2127052F00AD73EC /* CheckGesture10ViewController.swift */,
 			);
 			path = "10-触控技术";
 			sourceTree = "<group>";
@@ -304,6 +331,11 @@
 		37A6F2C020E8E44A00D878AE /* 11-多媒体技术 */ = {
 			isa = PBXGroup;
 			children = (
+				376EBC8021294BFA00AD73EC /* Media11ViewController.swift */,
+				376EBC82212950B700AD73EC /* Animation11ViewController.swift */,
+				376EBC84212950C900AD73EC /* Radio11ViewController.swift */,
+				376EBC86212950D700AD73EC /* Video11ViewController.swift */,
+				376EBC88212950F000AD73EC /* RadioVideo11ViewController.swift */,
 			);
 			path = "11-多媒体技术";
 			sourceTree = "<group>";
@@ -431,6 +463,7 @@
 				376EBC5F21186AD100AD73EC /* HomeTableViewController.swift in Sources */,
 				379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */,
 				37A6F2B020E13E1500D878AE /* TestSwitch.swift in Sources */,
+				376EBC8121294BFA00AD73EC /* Media11ViewController.swift in Sources */,
 				376EBC762120805300AD73EC /* RemoveTableViewController.swift in Sources */,
 				379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */,
 				37A6F29220DA332300D878AE /* TestViewController.swift in Sources */,
@@ -439,8 +472,11 @@
 				37A6F2B220E13E4500D878AE /* TestRefreshControl.swift in Sources */,
 				379AC61120FCD9D40090EACD /* Test08Tableviewcell.swift in Sources */,
 				37A6F2C720E9201600D878AE /* BasicControlsViewController.swift in Sources */,
+				376EBC85212950C900AD73EC /* Radio11ViewController.swift in Sources */,
 				376EBC722120802D00AD73EC /* SelectedTableViewController.swift in Sources */,
+				376EBC83212950B700AD73EC /* Animation11ViewController.swift in Sources */,
 				37A6F28220D9F2B500D878AE /* FirstViewController.swift in Sources */,
+				376EBC7B21231A1C00AD73EC /* Test09MyCollectionViewController.swift in Sources */,
 				37A6F2AC20E0DE3500D878AE /* Test06NavigationViewController.swift in Sources */,
 				37A6F29620DA352600D878AE /* NewViewController.swift in Sources */,
 				379AC60720F71C6E0090EACD /* Test09CollectionViewCell.swift in Sources */,
@@ -451,10 +487,14 @@
 				37A6F2AE20E0E86C00D878AE /* TestButton.swift in Sources */,
 				37A6F2AA20E0DE0500D878AE /* Test06TabbarViewController.swift in Sources */,
 				379AC61320FCE0160090EACD /* IndexTableViewController.swift in Sources */,
+				376EBC89212950F000AD73EC /* RadioVideo11ViewController.swift in Sources */,
+				376EBC7F2127052F00AD73EC /* CheckGesture10ViewController.swift in Sources */,
 				376EBC6A211C4D2200AD73EC /* ReadMeViewController.swift in Sources */,
 				37A6F2BA20E13EB700D878AE /* Third06ViewController.swift in Sources */,
 				37A6F2B820E13EA700D878AE /* Second06ViewController.swift in Sources */,
 				376EBC742120804000AD73EC /* InsertTableViewController.swift in Sources */,
+				376EBC87212950D700AD73EC /* Video11ViewController.swift in Sources */,
+				376EBC7D21231C5700AD73EC /* Gesture10TableViewController.swift in Sources */,
 				37A6F29A20DC07A700D878AE /* Second04ViewController.swift in Sources */,
 				37A6F29F20DCBBD700D878AE /* Test04TabbarViewController.swift in Sources */,
 				376EBC6C211C4DEB00AD73EC /* ReadmeotherViewController.swift in Sources */,

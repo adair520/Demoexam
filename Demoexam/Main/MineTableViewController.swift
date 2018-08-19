@@ -14,7 +14,7 @@ class MineTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+       self.navigationItem.title = "设置说明"
     }
 
 

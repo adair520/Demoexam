@@ -12,7 +12,7 @@ class First06ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "View1视图"
+        self.title = "视图1"
         self.tabBarItem.image = UIImage(named: "tab1")
         self.view.backgroundColor = UIColor.orange
         

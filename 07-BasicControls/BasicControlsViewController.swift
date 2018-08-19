@@ -12,6 +12,7 @@ class BasicControlsViewController: UIViewController,UITextFieldDelegate {
   
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "基础控件"
         self.view.backgroundColor = UIColor.white
         let testlabel = TestLabel()
         let testbutton = TestButton()

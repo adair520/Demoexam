@@ -13,7 +13,7 @@ class Test08TableviewViewController: UIViewController,UITableViewDataSource,UITa
     let tablecontents = ["系统Tableview","自定义TableviewCell","修改TableviewCell高度","Tableview添加索引和章节","TableviewCell选择和取消","TableviewCell插入和删除","移动TableviewCell","Tableview嵌套"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "表格视图"
         self.view.backgroundColor = UIColor.lightGray
         let screenRect = UIScreen.main.bounds
         let tableRect = CGRect(x: 0, y: 20, width: screenRect.width, height: screenRect.height)

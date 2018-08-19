@@ -12,7 +12,7 @@ class Test05NavigationViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "导航控制器"
         
     }
 

@@ -47,6 +47,7 @@ class MYTableViewController: UITableViewController {
         var cell = tableView.dequeueReusableCell(withIdentifier: cellid)
         if (cell == nil) {
             cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellid)
+            cell?.backgroundColor = UIColor.init(red: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), green: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), blue: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), alpha: 0.5)
         }
         if((indexPath as NSIndexPath).row % 2 == 0)
         {

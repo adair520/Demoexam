@@ -31,6 +31,7 @@ class SysTableViewController: UITableViewController {
        cell?.imageView?.image = UIImage(named: "tableviewcell")
        cell?.textLabel?.text = "系统自带的tableview"
        cell?.detailTextLabel?.text = "详细标题文字"
+        cell?.backgroundColor = UIColor.init(red: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), green: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), blue: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), alpha: 0.5)
 
         return cell!
     }

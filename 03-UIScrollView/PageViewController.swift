@@ -16,6 +16,8 @@ class  PageViewController:UIViewController,UIScrollViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "滚动视图"
+        
         var screenFrame = UIScreen.main.bounds
         let screenWidth = screenFrame.size.width
         let screenHeight = screenFrame.size.height

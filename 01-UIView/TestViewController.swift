@@ -12,6 +12,11 @@ class TestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //设置导航栏标题
+        self.title = "视图效果"
+        //设置导航栏右按钮显示源代码
+        let itemcode = UIBarButtonItem(title: "源码", style: .plain, target: self, action: #selector(TestViewController.showcode))
+        self.navigationItem.rightBarButtonItem = itemcode
         //添加返回按钮
         let btnback = UIButton(frame: CGRect(x:UIScreen.main.bounds.size.width/2 , y: UIScreen.main.bounds.size.height-100, width: 100, height: 40))
         btnback.backgroundColor = UIColor.darkGray
@@ -176,6 +181,14 @@ class TestViewController: UIViewController {
         let view7 = UIView(frame: CGRect(x: 10, y: 10, width: 100, height: 100))
         self.view.addSubview(view7)
         */
+    }
+   @objc func showcode(){
+      let textcodevc = UIViewController()
+      let textcode = UITextField(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
+    textcode.backgroundColor = UIColor.black
+      textcode.text = "源代码文本对象"
+      textcodevc.view.addSubview(textcode)
+      self.navigationController?.pushViewController(textcodevc, animated: true)
     }
     @objc func SingleTap(){
         print("touch me")

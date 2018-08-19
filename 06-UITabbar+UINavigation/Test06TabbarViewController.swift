@@ -12,12 +12,14 @@ class Test06TabbarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let item1 = self.tabBar.items?[0]
-        item1?.image = UIImage(named: "Tab1")
-        item1?.title = "Item1"
-        let item2 = self.tabBar.items?[1]
-        item2?.image = UIImage(named: "Tab2")
-        item2?.title = "Item1"
+//        let item1 = self.tabBar.items?[0]
+//        item1?.image = UIImage(named: "Tab1")
+//        item1?.title = "Item1"
+//        let item2 = self.tabBar.items?[1]
+//        item2?.image = UIImage(named: "Tab2")
+//        item2?.title = "Item1"
+     
+      self.tabBarController?.viewControllers = [Test06NavigationViewController()]
     }
 
 }

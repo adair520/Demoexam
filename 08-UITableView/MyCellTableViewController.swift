@@ -29,6 +29,7 @@ class MyCellTableViewController: UITableViewController {
             cell = Test08Tableviewcell(style: UITableViewCellStyle.default, reuseIdentifier: cellid)
         }
          cell?.textLabel?.text = "自定义的cell"
+        cell?.backgroundColor = UIColor.init(red: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), green: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), blue: CGFloat(CGFloat(arc4random())/CGFloat(RAND_MAX)), alpha: 0.5)
         return cell!
     }
 }

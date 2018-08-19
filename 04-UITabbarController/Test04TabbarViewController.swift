@@ -12,6 +12,7 @@ class Test04TabbarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "标签控制器"
         let first04VC = First04ViewController()
         let second04VC = Second04ViewController()
         let third04VC = Third04ViewController()

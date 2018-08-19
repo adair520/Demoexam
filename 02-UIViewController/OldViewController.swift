@@ -13,6 +13,8 @@ class OldViewController: UIViewController {
     var label:UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "视图控制器"
+        
         let btnback = UIButton(frame: CGRect(x:UIScreen.main.bounds.size.width/2 , y: UIScreen.main.bounds.size.height-100, width: 100, height: 40))
         btnback.backgroundColor = UIColor.darkGray
         btnback.titleLabel?.textColor = UIColor.white
