@@ -19,20 +19,20 @@ class CheckGesture10ViewController: UIViewController {
     func checkGesture(){
         
         // 点击手势
-        let tapGesture = UITapGestureRecognizer(target: self, action: "handleTapGesture:")
+        let tapGesture = UITapGestureRecognizer(target: self, action: Selector(("handleTapGesture:")))
         tapGesture.numberOfTapsRequired = 2  // 点击次数
         self.view.addGestureRecognizer(tapGesture)
         
         // 捏手势
-        let pinchGesture = UIPinchGestureRecognizer(target: self, action: "handlePinchGesture:")
+        let pinchGesture = UIPinchGestureRecognizer(target: self, action: Selector(("handlePinchGesture:")))
         self.view.addGestureRecognizer(pinchGesture)
         
         // 旋转手势
-        let rotateGesture = UIRotationGestureRecognizer(target: self, action: "handleRotateGesture:")
+        let rotateGesture = UIRotationGestureRecognizer(target: self, action: Selector(("handleRotateGesture:")))
         self.view.addGestureRecognizer(rotateGesture)
         
         // 滑动手势: 默认为右滑
-        let swipeGesture = UISwipeGestureRecognizer(target: self, action: "handleSwipeGesture:")
+        let swipeGesture = UISwipeGestureRecognizer(target: self, action: Selector(("handleSwipeGesture:")))
         swipeGesture.direction = .down //.Left .Down .Up .Right
         self.view.addGestureRecognizer(swipeGesture)
         
@@ -41,7 +41,7 @@ class CheckGesture10ViewController: UIViewController {
         //    self.view.addGestureRecognizer(panGesture)
         
         // 长按手势
-        let longpressGestrue = UILongPressGestureRecognizer(target: self, action: "handleLongPressGesture:")
+        let longpressGestrue = UILongPressGestureRecognizer(target: self, action: Selector(("handleLongPressGesture:")))
         longpressGestrue.minimumPressDuration = 1
         longpressGestrue.numberOfTouchesRequired = 1
         longpressGestrue.allowableMovement = 15

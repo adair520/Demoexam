@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AudioToolbox
 
 class Radio11ViewController: UIViewController {
 
@@ -44,6 +45,14 @@ class Radio11ViewController: UIViewController {
     }
     //system sound services实现短音播放
     @objc func shortRadioPlay(){
+        var _soundID:SystemSoundID = 0
+        let path = Bundle.main.path(forResource: "callRing", ofType: "mp3")
+        let soundUrl = URL(fileURLWithPath: path!)
+        AudioServicesCreateSystemSoundID(soundUrl as CFURL, &_soundID)
+        AudioServicesAddSystemSoundCompletion(_soundID, nil, nil, { (_soundID, clientData) in
+            print("重复播放")
+        }, nil)
+        AudioServicesPlaySystemSound(_soundID)
         
         
     }
