@@ -17,14 +17,12 @@ class HomeTableViewController: UITableViewController {
         self.title = "首页"
         setupleftbtn()
         setuprightbtn()
-       
         
     }
 
     
    func setupleftbtn(){
-        let leftitem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(HomeTableViewController.openleftVC))
-        leftitem.title = "点击左边"
+    let leftitem = UIBarButtonItem(title: "基础语法", style: .plain, target: self, action: #selector(HomeTableViewController.openleftVC))
         self.navigationItem.leftBarButtonItem = leftitem
         
     }
@@ -36,7 +34,8 @@ class HomeTableViewController: UITableViewController {
         
     }
     @objc  func openleftVC(){
-        
+        let basicprogram = UIViewController()
+        self.present(basicprogram, animated: true, completion: nil)
     }
     @objc   func openrightVC(){
         

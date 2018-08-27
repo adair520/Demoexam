@@ -8,9 +8,10 @@
 
 import UIKit
 import AudioToolbox
+import AVFoundation
 
-class Radio11ViewController: UIViewController {
-
+class Radio11ViewController: UIViewController,AVAudioPlayerDelegate {
+    var audioplayer:AVAudioPlayer = AVAudioPlayer()
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
@@ -46,7 +47,7 @@ class Radio11ViewController: UIViewController {
     //system sound services实现短音播放
     @objc func shortRadioPlay(){
         var _soundID:SystemSoundID = 0
-        let path = Bundle.main.path(forResource: "callRing", ofType: "mp3")
+        let path = Bundle.main.path(forResource: "Lament of Valkyrie", ofType: "mp3")
         let soundUrl = URL(fileURLWithPath: path!)
         AudioServicesCreateSystemSoundID(soundUrl as CFURL, &_soundID)
         AudioServicesAddSystemSoundCompletion(_soundID, nil, nil, { (_soundID, clientData) in
@@ -58,7 +59,37 @@ class Radio11ViewController: UIViewController {
     }
     //AVAudioplayer实现长音播放
     @objc func longRadioPlay(){
+        let path = Bundle.main.path(forResource: "Myriad", ofType: "mp3")
+        let soundurl = URL(fileURLWithPath: path!)
+        do {
+            try audioplayer = AVAudioPlayer(contentsOf: soundurl)
+            audioplayer.volume = 1
+            audioplayer.numberOfLoops = -1
+            audioplayer.delegate = self
+            audioplayer.play()
+            
+        } catch  {
+            print(error)
+        }
         
+        let stopMusic = UIButton(frame: CGRect(x: 20, y: 80, width: 280, height: 44))
+        stopMusic.backgroundColor = UIColor.purple
+        stopMusic.setTitle("暂停/恢复", for: .init(rawValue: 0))
+        stopMusic.addTarget(self, action: #selector(Radio11ViewController.stopMusic), for: .touchUpInside)
+        self.view.addSubview(stopMusic)
+    }
+    @objc func stopMusic(){
+        if self.audioplayer.isPlaying {
+            self.audioplayer.pause()
+        }else{
+            self.audioplayer.play()
+        }
+    }
+    func audioPlayerBeginInterruption(_ player: AVAudioPlayer) {
+        print("音乐被打断")
+    }
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        print("音乐播放完毕")
     }
     
 
