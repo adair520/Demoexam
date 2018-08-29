@@ -14,7 +14,8 @@ class MineTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       self.navigationItem.title = "设置说明"
+        self.view.backgroundColor = UIColor.gray
+        self.navigationItem.title = "设置说明"
     }
 
 
@@ -31,7 +32,7 @@ class MineTableViewController: UITableViewController {
         }
         cell?.textLabel?.text = readme[indexPath.row]
         cell?.accessoryType = .disclosureIndicator
-
+        cell?.backgroundColor = UIColor.purple
         return cell!
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

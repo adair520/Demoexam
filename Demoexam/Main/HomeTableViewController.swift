@@ -35,7 +35,8 @@ class HomeTableViewController: UITableViewController {
     }
     @objc  func openleftVC(){
         let basicprogram = UIViewController()
-        self.present(basicprogram, animated: true, completion: nil)
+        basicprogram.view.backgroundColor = UIColor.yellow
+        self.navigationController?.pushViewController(basicprogram, animated: true)
     }
     @objc   func openrightVC(){
         
@@ -73,8 +74,9 @@ class HomeTableViewController: UITableViewController {
         let test09 = Test09CollectionViewController()
         let test10 = Gesture10TableViewController()
         let test11 = Media11ViewController()
+        let test12 = Network12ViewController()
        
-        let contentListVC = [test01,test02,test03,test04,test05,test06,test07,test08,test09,test10,test11]
+        let contentListVC = [test01,test02,test03,test04,test05,test06,test07,test08,test09,test10,test11,test12]
         self.navigationController?.pushViewController(contentListVC[indexPath.row], animated: true)
         //self.present(contentListVC[indexPath.row], animated: true, completion: nil)
         
