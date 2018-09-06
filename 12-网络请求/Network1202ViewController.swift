@@ -19,17 +19,27 @@ class Network1202ViewController: UIViewController {
         btn.setTitleColor(.blue, for: UIControlState())
         btn.titleLabel?.textAlignment = .center
         btn.backgroundColor = UIColor.yellow
-        btn.addTarget(self, action: #selector(Network1202ViewController.clickbtn2), for: .touchUpInside)
+        btn.addTarget(self, action: #selector(Network1202ViewController.clickbtn), for: .touchUpInside)
         self.view.addSubview(btn)
         let btn1 = UIButton(frame: CGRect(x: 40, y: 200, width: 200, height: 50))
         btn1.setTitle("POST", for: UIControlState())
         btn1.setTitleColor(.blue, for: UIControlState())
         btn1.titleLabel?.textAlignment = .center
-        btn1.backgroundColor = UIColor.yellow
-        btn1.addTarget(self, action: #selector(Network1202ViewController.clickbtn3), for: .touchUpInside)
+        btn1.backgroundColor = UIColor.purple
+        btn1.addTarget(self, action: #selector(Network1202ViewController.clickbtn1), for: .touchUpInside)
         self.view.addSubview(btn1)
+        let btn2 = UIButton(frame: CGRect(x: 40, y: 300, width: 200, height: 50))
+        btn2.setTitle("Delete", for: UIControlState())
+        btn2.setTitleColor(.blue, for: UIControlState())
+        btn2.titleLabel?.textAlignment = .center
+        btn2.backgroundColor = UIColor.lightGray
+        btn2.addTarget(self, action: #selector(Network1202ViewController.clickbtn2(_:)), for: .touchUpInside)
+        self.view.addSubview(btn2)
+        print(self.view.frame)
     }
-     @objc func clickbtn2(){
+     
+     @objc func clickbtn(){
+        print("点击了")
         Alamofire.request( "https://httpbin.org/get",method:.get, parameters: ["foo": "bar"])
             .responseJSON { response in
                 print("original URL request: \(String(describing: response.request))")  // original URL request
@@ -39,11 +49,17 @@ class Network1202ViewController: UIViewController {
                 
                 if let JSON = response.result.value {
                     print("JSON: \(JSON)")
+                    let message = "Get请求结果\(response.result)"
+                    let alert = UIAlertController(title: "Information", message: message, preferredStyle: .alert)
+                    let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                    alert.addAction(okAction)
+                    self.present(alert, animated: true, completion: nil)
                 }
         }
     
     }
-    @objc func clickbtn3(){
+    @objc func clickbtn1(){
+         print("点击了")
         let parameters = [
             "foo": "bar",
             "baz": ["a", 1],
@@ -62,9 +78,19 @@ class Network1202ViewController: UIViewController {
                 
                 if let JSON = response.result.value {
                     print("JSON: \(JSON)")
+                    let message = "POST请求结果\(response.result)"
+                    let alert = UIAlertController(title: "Information", message: message, preferredStyle: .alert)
+                    let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                    alert.addAction(okAction)
+                    self.present(alert, animated: true, completion: nil)
                 }
                 
         }
+        
+    }
+    
+    @objc func clickbtn2(_ button: UIButton){
+           print("点击了")
         
     }
 

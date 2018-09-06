@@ -70,6 +70,9 @@
 		37A6F2B820E13EA700D878AE /* Second06ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F2B720E13EA700D878AE /* Second06ViewController.swift */; };
 		37A6F2BA20E13EB700D878AE /* Third06ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F2B920E13EB700D878AE /* Third06ViewController.swift */; };
 		37A6F2C720E9201600D878AE /* BasicControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F2C620E9201600D878AE /* BasicControlsViewController.swift */; };
+		37BC3E22213EDD8B009B73F0 /* ake.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BC3E20213EDD8B009B73F0 /* ake.png */; };
+		37BC3E23213EDD8B009B73F0 /* kai.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BC3E21213EDD8B009B73F0 /* kai.png */; };
+		37BC3E2521416097009B73F0 /* Web13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BC3E2421416097009B73F0 /* Web13ViewController.swift */; };
 		37F7E72F20EE19AD0046C45B /* Test08TableviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F7E72E20EE19AD0046C45B /* Test08TableviewViewController.swift */; };
 		37F7E73120EE19CE0046C45B /* Test09CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F7E73020EE19CE0046C45B /* Test09CollectionViewController.swift */; };
 		37F7E73320EE497E0046C45B /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F7E73220EE497E0046C45B /* RefreshViewController.swift */; };
@@ -144,6 +147,9 @@
 		37A6F2B720E13EA700D878AE /* Second06ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second06ViewController.swift; sourceTree = "<group>"; };
 		37A6F2B920E13EB700D878AE /* Third06ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Third06ViewController.swift; sourceTree = "<group>"; };
 		37A6F2C620E9201600D878AE /* BasicControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicControlsViewController.swift; sourceTree = "<group>"; };
+		37BC3E20213EDD8B009B73F0 /* ake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ake.png; sourceTree = "<group>"; };
+		37BC3E21213EDD8B009B73F0 /* kai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kai.png; sourceTree = "<group>"; };
+		37BC3E2421416097009B73F0 /* Web13ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web13ViewController.swift; sourceTree = "<group>"; };
 		37F7E72E20EE19AD0046C45B /* Test08TableviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test08TableviewViewController.swift; sourceTree = "<group>"; };
 		37F7E73020EE19CE0046C45B /* Test09CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test09CollectionViewController.swift; sourceTree = "<group>"; };
 		37F7E73220EE497E0046C45B /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
@@ -378,6 +384,7 @@
 		37A6F2C120E8E45E00D878AE /* 12-网络请求 */ = {
 			isa = PBXGroup;
 			children = (
+				37BC3E17213E91A9009B73F0 /* 网络素材 */,
 				3772D26521356388004D2C25 /* Network12ViewController.swift */,
 				3772D2672135679A004D2C25 /* Network1201ViewController.swift */,
 				3772D269213567A9004D2C25 /* Network1202ViewController.swift */,
@@ -391,6 +398,7 @@
 		37A6F2C220E8E47500D878AE /* 13-UIWebview */ = {
 			isa = PBXGroup;
 			children = (
+				37BC3E2421416097009B73F0 /* Web13ViewController.swift */,
 			);
 			path = "13-UIWebview";
 			sourceTree = "<group>";
@@ -414,6 +422,15 @@
 			children = (
 			);
 			path = "16-MapKit";
+			sourceTree = "<group>";
+		};
+		37BC3E17213E91A9009B73F0 /* 网络素材 */ = {
+			isa = PBXGroup;
+			children = (
+				37BC3E20213EDD8B009B73F0 /* ake.png */,
+				37BC3E21213EDD8B009B73F0 /* kai.png */,
+			);
+			path = "网络素材";
 			sourceTree = "<group>";
 		};
 		84909C93CA8C30A656C27E72 /* Pods */ = {
@@ -496,7 +513,9 @@
 				37A6F27620D9F26D00D878AE /* Assets.xcassets in Resources */,
 				376EBC612118A99400AD73EC /* swift3中文版.pdf in Resources */,
 				372A112F2134262900C72079 /* Myriad.mp3 in Resources */,
+				37BC3E22213EDD8B009B73F0 /* ake.png in Resources */,
 				372A112D2134260600C72079 /* Lament of Valkyrie.mp3 in Resources */,
+				37BC3E23213EDD8B009B73F0 /* kai.png in Resources */,
 				376EBC642118AC1E00AD73EC /* swift4英文版.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,6 +619,7 @@
 				376EBC742120804000AD73EC /* InsertTableViewController.swift in Sources */,
 				376EBC87212950D700AD73EC /* Video11ViewController.swift in Sources */,
 				376EBC7D21231C5700AD73EC /* Gesture10TableViewController.swift in Sources */,
+				37BC3E2521416097009B73F0 /* Web13ViewController.swift in Sources */,
 				37A6F29A20DC07A700D878AE /* Second04ViewController.swift in Sources */,
 				37A6F29F20DCBBD700D878AE /* Test04TabbarViewController.swift in Sources */,
 				3772D26A213567A9004D2C25 /* Network1202ViewController.swift in Sources */,

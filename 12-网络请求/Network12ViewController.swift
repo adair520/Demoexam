@@ -12,7 +12,7 @@ import UIKit
 //3、文件上传和进度显示
 //4、文件下载和进度显示
 class Network12ViewController: UITableViewController {
-   let contentlist = ["判断网络是否联通及连接方式","GET和POST请求","文件上传和进度显示","文件下载和进度显示"]
+   let contentlist = ["判断网络是否联通及连接方式","GET和POST请求","文件上传和文件下载","网络请求基本使用"]
     override func viewDidLoad() {
         super.viewDidLoad()
        
