@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0143A3A5DE5E2A5ADDAA703BCAAE0736"
-               BuildableName = "Pods_Demoexam.framework"
-               BlueprintName = "Pods-Demoexam"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "37A6F26A20D9F26D00D878AE"
+               BuildableName = "Demoexam.app"
+               BlueprintName = "Demoexam"
+               ReferencedContainer = "container:Demoexam.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "37A6F26A20D9F26D00D878AE"
+            BuildableName = "Demoexam.app"
+            BlueprintName = "Demoexam"
+            ReferencedContainer = "container:Demoexam.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0143A3A5DE5E2A5ADDAA703BCAAE0736"
-            BuildableName = "Pods_Demoexam.framework"
-            BlueprintName = "Pods-Demoexam"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "37A6F26A20D9F26D00D878AE"
+            BuildableName = "Demoexam.app"
+            BlueprintName = "Demoexam"
+            ReferencedContainer = "container:Demoexam.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,6 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "37A6F26A20D9F26D00D878AE"
+            BuildableName = "Demoexam.app"
+            BlueprintName = "Demoexam"
+            ReferencedContainer = "container:Demoexam.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
