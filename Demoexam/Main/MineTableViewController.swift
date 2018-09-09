@@ -14,7 +14,7 @@ class MineTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.gray
+        self.navigationController?.navigationBar.backgroundColor = UIColor.darkGray
         self.navigationItem.title = "设置说明"
     }
 

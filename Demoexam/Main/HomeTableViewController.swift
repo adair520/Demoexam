@@ -10,8 +10,13 @@ import UIKit
 
 class HomeTableViewController: UITableViewController {
     
-    let contentList = ["01.UIView和CALayer","02.UIViewController","03.UIScrollView","04.UITabbarController","05UINavigationController","06.UITabbarVC+UINavigationbarVC",
-                       "07.BasicController","08.UITableviewVC","09.UICollectionView","10.触控技术","11.多媒体技术","12.网络请求","13.UIWebView+HTML5","14.数据存储","15.多线程技术","16.MapKit"]
+    let contentList = ["01.UIView和CALayer","02.UIViewController","03.UIScrollView","04.UITabbarController",
+                       "05UINavigationController","06.UITabbarVC+UINavigationbarVC",
+                       "07.BasicController","08.UITableviewVC","09.UICollectionView","10.触控技术","11.多媒体技术","12.网络请求",
+                       "13.UIWebView+HTML5","14.数据存储","15.多线程技术","16.MapKit","17.图文混排","18.图像和视频处理","19.常用设备",
+                       "20.Storyboard","21.测试技术","22.内存泄露检测","23.本地化应用","24.加密和安全",
+                       "25.Model层框架","26.项目案例","27.打包和发布"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "首页"
@@ -22,7 +27,7 @@ class HomeTableViewController: UITableViewController {
 
     
    func setupleftbtn(){
-    let leftitem = UIBarButtonItem(title: "基础语法", style: .plain, target: self, action: #selector(HomeTableViewController.openleftVC))
+    let leftitem = UIBarButtonItem(title: "语法", style: .plain, target: self, action: #selector(HomeTableViewController.openleftVC))
         self.navigationItem.leftBarButtonItem = leftitem
         
     }

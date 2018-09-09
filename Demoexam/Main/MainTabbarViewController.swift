@@ -12,12 +12,14 @@ class MainTabbarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tabBar.backgroundColor = UIColor.darkGray
         //self.tabBar.isTranslucent = false
         //self.tabBar.tintColor = UIColor.yellow
         //self.tabBar.barTintColor = UIColor.white
         
         let homevc = HomeTableViewController()
         let mainNav = UINavigationController(rootViewController: homevc)
+        mainNav.navigationBar.backgroundColor = UIColor.darkGray
         mainNav.tabBarItem.image = UIImage(named: "tabBar_home")
         mainNav.tabBarItem.selectedImage = UIImage(named: "tabBar_home_click")
         
