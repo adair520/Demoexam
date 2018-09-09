@@ -10,6 +10,7 @@
 		372A112D2134260600C72079 /* Lament of Valkyrie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 372A112C2134260600C72079 /* Lament of Valkyrie.mp3 */; };
 		372A112F2134262900C72079 /* Myriad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 372A112E2134262900C72079 /* Myriad.mp3 */; };
 		373AECED21416E44003BA401 /* Web13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AECEC21416E44003BA401 /* Web13ViewController.swift */; };
+		373AECF1214271D8003BA401 /* BasicProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AECF0214271D8003BA401 /* BasicProgramViewController.swift */; };
 		376EBC5F21186AD100AD73EC /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */; };
 		376EBC612118A99400AD73EC /* swift3中文版.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 376EBC602118A99400AD73EC /* swift3中文版.pdf */; };
 		376EBC642118AC1E00AD73EC /* swift4英文版.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 376EBC632118AC1E00AD73EC /* swift4英文版.pdf */; };
@@ -30,6 +31,16 @@
 		376EBC85212950C900AD73EC /* Radio11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC84212950C900AD73EC /* Radio11ViewController.swift */; };
 		376EBC87212950D700AD73EC /* Video11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC86212950D700AD73EC /* Video11ViewController.swift */; };
 		376EBC89212950F000AD73EC /* RadioVideo11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC88212950F000AD73EC /* RadioVideo11ViewController.swift */; };
+		37706ED021451BD000763593 /* Store14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37706ECF21451BD000763593 /* Store14ViewController.swift */; };
+		37706ED221451BF800763593 /* MutalProgress15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37706ED121451BF800763593 /* MutalProgress15ViewController.swift */; };
+		37706ED421451CBA00763593 /* Plist14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37706ED321451CBA00763593 /* Plist14ViewController.swift */; };
+		37706ED621451CD100763593 /* Object14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37706ED521451CD100763593 /* Object14ViewController.swift */; };
+		37706ED821451CE400763593 /* SQLLite14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37706ED721451CE400763593 /* SQLLite14ViewController.swift */; };
+		37706EDA21451CF300763593 /* CoreDate14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37706ED921451CF300763593 /* CoreDate14ViewController.swift */; };
+		37706EDC21451DE500763593 /* Thred15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37706EDB21451DE500763593 /* Thred15ViewController.swift */; };
+		37706EDE21451DF500763593 /* Operation15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37706EDD21451DF500763593 /* Operation15ViewController.swift */; };
+		37706EE021451E0200763593 /* GCD15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37706EDF21451E0200763593 /* GCD15ViewController.swift */; };
+		37706EE221451EA600763593 /* Mapkit16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37706EE121451EA600763593 /* Mapkit16ViewController.swift */; };
 		3772D26621356388004D2C25 /* Network12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772D26521356388004D2C25 /* Network12ViewController.swift */; };
 		3772D2682135679A004D2C25 /* Network1201ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772D2672135679A004D2C25 /* Network1201ViewController.swift */; };
 		3772D26A213567A9004D2C25 /* Network1202ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772D269213567A9004D2C25 /* Network1202ViewController.swift */; };
@@ -84,6 +95,7 @@
 		372A112E2134262900C72079 /* Myriad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Myriad.mp3; sourceTree = "<group>"; };
 		372A11322134276800C72079 /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
 		373AECEC21416E44003BA401 /* Web13ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web13ViewController.swift; sourceTree = "<group>"; };
+		373AECF0214271D8003BA401 /* BasicProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicProgramViewController.swift; sourceTree = "<group>"; };
 		376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		376EBC602118A99400AD73EC /* swift3中文版.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "swift3中文版.pdf"; sourceTree = "<group>"; };
 		376EBC632118AC1E00AD73EC /* swift4英文版.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "swift4英文版.pdf"; sourceTree = "<group>"; };
@@ -104,6 +116,16 @@
 		376EBC84212950C900AD73EC /* Radio11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio11ViewController.swift; sourceTree = "<group>"; };
 		376EBC86212950D700AD73EC /* Video11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video11ViewController.swift; sourceTree = "<group>"; };
 		376EBC88212950F000AD73EC /* RadioVideo11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioVideo11ViewController.swift; sourceTree = "<group>"; };
+		37706ECF21451BD000763593 /* Store14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store14ViewController.swift; sourceTree = "<group>"; };
+		37706ED121451BF800763593 /* MutalProgress15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutalProgress15ViewController.swift; sourceTree = "<group>"; };
+		37706ED321451CBA00763593 /* Plist14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plist14ViewController.swift; sourceTree = "<group>"; };
+		37706ED521451CD100763593 /* Object14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object14ViewController.swift; sourceTree = "<group>"; };
+		37706ED721451CE400763593 /* SQLLite14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLLite14ViewController.swift; sourceTree = "<group>"; };
+		37706ED921451CF300763593 /* CoreDate14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDate14ViewController.swift; sourceTree = "<group>"; };
+		37706EDB21451DE500763593 /* Thred15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thred15ViewController.swift; sourceTree = "<group>"; };
+		37706EDD21451DF500763593 /* Operation15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation15ViewController.swift; sourceTree = "<group>"; };
+		37706EDF21451E0200763593 /* GCD15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD15ViewController.swift; sourceTree = "<group>"; };
+		37706EE121451EA600763593 /* Mapkit16ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapkit16ViewController.swift; sourceTree = "<group>"; };
 		3772D26521356388004D2C25 /* Network12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network12ViewController.swift; sourceTree = "<group>"; };
 		3772D2672135679A004D2C25 /* Network1201ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network1201ViewController.swift; sourceTree = "<group>"; };
 		3772D269213567A9004D2C25 /* Network1202ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network1202ViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +217,21 @@
 			path = "13-UIWebview";
 			sourceTree = SOURCE_ROOT;
 		};
+		373AECEE2142713C003BA401 /* NoteBook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NoteBook;
+			sourceTree = "<group>";
+		};
+		373AECEF214271AF003BA401 /* BasicProgram */ = {
+			isa = PBXGroup;
+			children = (
+				373AECF0214271D8003BA401 /* BasicProgramViewController.swift */,
+			);
+			path = BasicProgram;
+			sourceTree = "<group>";
+		};
 		376EBC68211C4CEE00AD73EC /* 00-ReadMe */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,16 +241,88 @@
 			path = "00-ReadMe";
 			sourceTree = "<group>";
 		};
-		376EBC792121DD7E00AD73EC /* 17-项目案例 */ = {
+		376EBC792121DD7E00AD73EC /* 26-项目案例 */ = {
+			isa = PBXGroup;
+			children = (
+				373AECEE2142713C003BA401 /* NoteBook */,
+			);
+			path = "26-项目案例";
+			sourceTree = "<group>";
+		};
+		37706EE321451EBC00763593 /* 17-图文混排 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "17-项目案例";
+			path = "17-图文混排";
+			sourceTree = "<group>";
+		};
+		37706EE421451ED100763593 /* 18-图像和视频处理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "18-图像和视频处理";
+			sourceTree = "<group>";
+		};
+		37706EE521451EE700763593 /* 19-常用设备 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "19-常用设备";
+			sourceTree = "<group>";
+		};
+		37706EE621451F2A00763593 /* 20-Storyboar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "20-Storyboar";
+			sourceTree = "<group>";
+		};
+		37706EE721451F4B00763593 /* 21-测试技术 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "21-测试技术";
+			sourceTree = "<group>";
+		};
+		37706EE821451F8200763593 /* 22-内存泄露检测 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "22-内存泄露检测";
+			sourceTree = "<group>";
+		};
+		37706EE921451F9700763593 /* 23-本地化应用 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "23-本地化应用";
+			sourceTree = "<group>";
+		};
+		37706EEA21451FA500763593 /* 24-加密和安全 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "24-加密和安全";
+			sourceTree = "<group>";
+		};
+		37706EEB21451FC200763593 /* 25-Model层框架 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "25-Model层框架";
+			sourceTree = "<group>";
+		};
+		37706EEC2145200500763593 /* 27-打包和发布 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "27-打包和发布";
 			sourceTree = "<group>";
 		};
 		379AC5F920F320E30090EACD /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				373AECEF214271AF003BA401 /* BasicProgram */,
 				376EBC632118AC1E00AD73EC /* swift4英文版.pdf */,
 				376EBC602118A99400AD73EC /* swift3中文版.pdf */,
 				379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */,
@@ -228,7 +337,17 @@
 		37A6F26220D9F26D00D878AE = {
 			isa = PBXGroup;
 			children = (
-				376EBC792121DD7E00AD73EC /* 17-项目案例 */,
+				37706EEC2145200500763593 /* 27-打包和发布 */,
+				376EBC792121DD7E00AD73EC /* 26-项目案例 */,
+				37706EEB21451FC200763593 /* 25-Model层框架 */,
+				37706EEA21451FA500763593 /* 24-加密和安全 */,
+				37706EE921451F9700763593 /* 23-本地化应用 */,
+				37706EE821451F8200763593 /* 22-内存泄露检测 */,
+				37706EE721451F4B00763593 /* 21-测试技术 */,
+				37706EE621451F2A00763593 /* 20-Storyboar */,
+				37706EE521451EE700763593 /* 19-常用设备 */,
+				37706EE421451ED100763593 /* 18-图像和视频处理 */,
+				37706EE321451EBC00763593 /* 17-图文混排 */,
 				37A6F2C520E8E4A900D878AE /* 16-MapKit */,
 				37A6F2C420E8E49500D878AE /* 15-多线程技术 */,
 				37A6F2C320E8E48A00D878AE /* 14-数据存储 */,
@@ -414,6 +533,11 @@
 		37A6F2C320E8E48A00D878AE /* 14-数据存储 */ = {
 			isa = PBXGroup;
 			children = (
+				37706ECF21451BD000763593 /* Store14ViewController.swift */,
+				37706ED321451CBA00763593 /* Plist14ViewController.swift */,
+				37706ED521451CD100763593 /* Object14ViewController.swift */,
+				37706ED721451CE400763593 /* SQLLite14ViewController.swift */,
+				37706ED921451CF300763593 /* CoreDate14ViewController.swift */,
 			);
 			path = "14-数据存储";
 			sourceTree = "<group>";
@@ -421,6 +545,10 @@
 		37A6F2C420E8E49500D878AE /* 15-多线程技术 */ = {
 			isa = PBXGroup;
 			children = (
+				37706ED121451BF800763593 /* MutalProgress15ViewController.swift */,
+				37706EDB21451DE500763593 /* Thred15ViewController.swift */,
+				37706EDD21451DF500763593 /* Operation15ViewController.swift */,
+				37706EDF21451E0200763593 /* GCD15ViewController.swift */,
 			);
 			path = "15-多线程技术";
 			sourceTree = "<group>";
@@ -428,6 +556,7 @@
 		37A6F2C520E8E4A900D878AE /* 16-MapKit */ = {
 			isa = PBXGroup;
 			children = (
+				37706EE121451EA600763593 /* Mapkit16ViewController.swift */,
 			);
 			path = "16-MapKit";
 			sourceTree = "<group>";
@@ -570,20 +699,26 @@
 				376EBC66211C4BB900AD73EC /* MineTableViewController.swift in Sources */,
 				37F7E72F20EE19AD0046C45B /* Test08TableviewViewController.swift in Sources */,
 				3772D26C213567B5004D2C25 /* Network1203ViewController.swift in Sources */,
+				37706EDE21451DF500763593 /* Operation15ViewController.swift in Sources */,
 				37F7E73120EE19CE0046C45B /* Test09CollectionViewController.swift in Sources */,
 				37A6F29420DA34BA00D878AE /* OldViewController.swift in Sources */,
+				37706EDA21451CF300763593 /* CoreDate14ViewController.swift in Sources */,
 				37A6F29820DC079400D878AE /* First04ViewController.swift in Sources */,
 				37A6F2A120E0112700D878AE /* First05ViewController.swift in Sources */,
 				37A6F2B620E13E9A00D878AE /* First06ViewController.swift in Sources */,
 				37A6F2A520E0132A00D878AE /* Test05NavigationViewController.swift in Sources */,
+				37706ED821451CE400763593 /* SQLLite14ViewController.swift in Sources */,
 				379AC60920FCD7DA0090EACD /* MYTableViewController.swift in Sources */,
+				37706ED621451CD100763593 /* Object14ViewController.swift in Sources */,
 				37A6F28420D9F2C800D878AE /* SecondViewController.swift in Sources */,
 				37A6F28E20DA321600D878AE /* RoundView.swift in Sources */,
 				37A6F29C20DC07B800D878AE /* Third04ViewController.swift in Sources */,
+				373AECF1214271D8003BA401 /* BasicProgramViewController.swift in Sources */,
 				37F7E73320EE497E0046C45B /* RefreshViewController.swift in Sources */,
 				376EBC5F21186AD100AD73EC /* HomeTableViewController.swift in Sources */,
 				379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */,
 				37A6F2B020E13E1500D878AE /* TestSwitch.swift in Sources */,
+				37706EE021451E0200763593 /* GCD15ViewController.swift in Sources */,
 				376EBC8121294BFA00AD73EC /* Media11ViewController.swift in Sources */,
 				376EBC762120805300AD73EC /* RemoveTableViewController.swift in Sources */,
 				3772D270213569CE004D2C25 /* MyNetworkReachabilityManager.swift in Sources */,
@@ -593,17 +728,21 @@
 				37A6F2A820E0DDA100D878AE /* TestLabel.swift in Sources */,
 				37A6F2B220E13E4500D878AE /* TestRefreshControl.swift in Sources */,
 				379AC61120FCD9D40090EACD /* Test08Tableviewcell.swift in Sources */,
+				37706ED421451CBA00763593 /* Plist14ViewController.swift in Sources */,
 				37A6F2C720E9201600D878AE /* BasicControlsViewController.swift in Sources */,
 				376EBC85212950C900AD73EC /* Radio11ViewController.swift in Sources */,
 				376EBC722120802D00AD73EC /* SelectedTableViewController.swift in Sources */,
 				376EBC83212950B700AD73EC /* Animation11ViewController.swift in Sources */,
+				37706EE221451EA600763593 /* Mapkit16ViewController.swift in Sources */,
 				3772D26E213567C7004D2C25 /* Network1204ViewController.swift in Sources */,
 				37A6F28220D9F2B500D878AE /* FirstViewController.swift in Sources */,
 				376EBC7B21231A1C00AD73EC /* Test09MyCollectionViewController.swift in Sources */,
 				37A6F2AC20E0DE3500D878AE /* Test06NavigationViewController.swift in Sources */,
+				37706EDC21451DE500763593 /* Thred15ViewController.swift in Sources */,
 				37A6F29620DA352600D878AE /* NewViewController.swift in Sources */,
 				379AC60720F71C6E0090EACD /* Test09CollectionViewCell.swift in Sources */,
 				37A6F27120D9F26D00D878AE /* ViewController.swift in Sources */,
+				37706ED021451BD000763593 /* Store14ViewController.swift in Sources */,
 				376EBC782120808500AD73EC /* NestedTableViewController.swift in Sources */,
 				3772D26621356388004D2C25 /* Network12ViewController.swift in Sources */,
 				379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */,
@@ -614,6 +753,7 @@
 				376EBC89212950F000AD73EC /* RadioVideo11ViewController.swift in Sources */,
 				376EBC7F2127052F00AD73EC /* CheckGesture10ViewController.swift in Sources */,
 				376EBC6A211C4D2200AD73EC /* ReadMeViewController.swift in Sources */,
+				37706ED221451BF800763593 /* MutalProgress15ViewController.swift in Sources */,
 				37A6F2BA20E13EB700D878AE /* Third06ViewController.swift in Sources */,
 				37A6F2B820E13EA700D878AE /* Second06ViewController.swift in Sources */,
 				376EBC742120804000AD73EC /* InsertTableViewController.swift in Sources */,

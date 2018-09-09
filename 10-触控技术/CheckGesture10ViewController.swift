@@ -19,12 +19,12 @@ class CheckGesture10ViewController: UIViewController {
     func checkGesture(){
         
         // 点击手势
-        let tapGesture = UITapGestureRecognizer(target: self, action: Selector(("handleTapGesture:")))
-        tapGesture.numberOfTapsRequired = 2  // 点击次数
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(CheckGesture10ViewController.handleTapGesture))
+        tapGesture.numberOfTapsRequired = 1  // 点击次数
         self.view.addGestureRecognizer(tapGesture)
         
         // 捏手势
-        let pinchGesture = UIPinchGestureRecognizer(target: self, action: Selector(("handlePinchGesture:")))
+        let pinchGesture = UIPinchGestureRecognizer(target: self, action: #selector(CheckGesture10ViewController.handlePinchGesture))
         self.view.addGestureRecognizer(pinchGesture)
         
         // 旋转手势
@@ -40,6 +40,7 @@ class CheckGesture10ViewController: UIViewController {
         //    let panGesture = UIPanGestureRecognizer(target: self, action: "handlePanGesture:")
         //    self.view.addGestureRecognizer(panGesture)
         
+    
         // 长按手势
         let longpressGestrue = UILongPressGestureRecognizer(target: self, action: Selector(("handleLongPressGesture:")))
         longpressGestrue.minimumPressDuration = 1
@@ -49,10 +50,11 @@ class CheckGesture10ViewController: UIViewController {
     }
 
     
-   @objc func handleTapGesture(sender: UITapGestureRecognizer) {
+   @objc func handleTapGesture() {
         let acertVC = UIAlertController(title: "点击", message: "啥", preferredStyle: .alert)
         let action = UIAlertAction(title: "什么", style: .default, handler: nil)
         acertVC.addAction(action)
+       self.present(acertVC, animated: true, completion: nil)
     }
     
    @objc func handlePinchGesture(sender: UIPinchGestureRecognizer) {
