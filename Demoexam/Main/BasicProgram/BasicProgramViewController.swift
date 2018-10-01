@@ -27,7 +27,7 @@ class BasicProgramViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let P01 = UIViewController()
+        let P01 = P01ViewController()
         let P02 = UIViewController()
         let P03 = UIViewController()
         let P04 = UIViewController()

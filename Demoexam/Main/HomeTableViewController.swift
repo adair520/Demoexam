@@ -83,8 +83,23 @@ class HomeTableViewController: UITableViewController {
         let test13 = Web13ViewController()
         let test14 = Store14ViewController()
         let test15 = MutalProgress15ViewController()
+        let test16 = UIViewController()
+        let test17 = UIViewController()
+        let test18 = UIViewController()
+        let test19 = UIViewController()
+        let test20 = UIViewController()
+        let test21 = UIViewController()
+        let test22 = UIViewController()
+        let test23 = UIViewController()
+        let test24 = DecondeAndEncode24_1ViewController()
+        let test25 = UIViewController()
+        let test26 = UIViewController()
+        let test27 = UIViewController()
        
-        let contentListVC = [test01,test02,test03,test04,test05,test06,test07,test08,test09,test10,test11,test12,test13,test14,test15]
+        
+       
+        let contentListVC = [test01,test02,test03,test04,test05,test06,test07,test08,test09,test10,test11,test12,test13,test14,
+                             test15,test16,test17,test18,test19,test20,test21,test22,test23,test24,test25,test26,test27]
         self.navigationController?.pushViewController(contentListVC[indexPath.row], animated: true)
         //self.present(contentListVC[indexPath.row], animated: true, completion: nil)
         

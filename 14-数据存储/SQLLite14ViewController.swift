@@ -7,29 +7,28 @@
 //
 
 import UIKit
-
+import SQLite3
+//$(SRCROOT)/PrefixHeader.h
 class SQLLite14ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+        let db = try? Connection("\(path)/db.sqlite3")
+        let users = Table("users")
+        let id = Expression<Int64>("id")
+        let name = Expression<String?>("name")
+        let email = Expression<String>("email")
+        
+        try! db?.run(users.create(ifNotExists: true, block: { (table) in
+            table.column(id, primaryKey: true)
+            table.column(name)
+            table.column(email, unique: true)
+        }))
+ */
+            
+        
     }
-    */
 
 }

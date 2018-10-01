@@ -13,23 +13,26 @@ class Plist14ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+         readPlist()
+         writePlist()
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func readPlist(){
+        let plistPath = Bundle.main.path(forResource: "Property List", ofType: "plist")
+        let data:NSMutableDictionary = NSMutableDictionary.init(contentsOfFile: plistPath!)!
+        let message = data.description
+        let alert = UIAlertController(title: "information", message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: "ok", style: .default, handler: nil)
+        alert.addAction(action)
+        self.present(alert, animated: true, completion: nil)
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func writePlist(){
+        let dic:NSMutableDictionary = NSMutableDictionary()
+        dic.setValue("wangmingyang", forKey: "Name")
+        dic.setValue(22, forKey: "Age")
+        let plistPath = Bundle.main.path(forResource: "Property List", ofType: "plist")
+        dic.write(toFile: plistPath!, atomically: true)
+        
     }
-    */
 
 }
