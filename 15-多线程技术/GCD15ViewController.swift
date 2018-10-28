@@ -9,27 +9,30 @@
 import UIKit
 
 class GCD15ViewController: UIViewController {
-
+   var label = UILabel()
     override func viewDidLoad() {
         super.viewDidLoad()
+        label.frame = CGRect(x: 0, y: 0, width: 320, height: 568)
+        label.text = "Loading..."
+        label.font = UIFont(name: "Arial", size: 24)
+        label.backgroundColor = UIColor.orange
+        label.numberOfLines = 0
+        label.lineBreakMode = NSLineBreakMode.byWordWrapping
+        self.view.addSubview(label)
+        
+        let apiURL = URL(string: "http://ip.taobao.com/service/getIpInfo.php?ip=27.156.152.57")
+        
+        let globalQueue = DispatchQueue.global()
+        globalQueue.async{
+            let result = try? Data(contentsOf: apiURL!)
+            let message  = String(data: result!, encoding: String.Encoding.utf8)
+            DispatchQueue.main.async
+                {
+                    self.label.text = message
+            }
+        }
+        
 
-        // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		372A112D2134260600C72079 /* Lament of Valkyrie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 372A112C2134260600C72079 /* Lament of Valkyrie.mp3 */; };
 		372A112F2134262900C72079 /* Myriad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 372A112E2134262900C72079 /* Myriad.mp3 */; };
+		373269022163B31B00A7D9A2 /* IsTouch10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373269012163B31B00A7D9A2 /* IsTouch10ViewController.swift */; };
+		373269042163B34000A7D9A2 /* TouchCategory10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373269032163B34000A7D9A2 /* TouchCategory10ViewController.swift */; };
+		373269062163B34E00A7D9A2 /* ThreeDTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373269052163B34E00A7D9A2 /* ThreeDTouchViewController.swift */; };
+		37326908216CCEBF00A7D9A2 /* MoveTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37326907216CCEBF00A7D9A2 /* MoveTouchViewController.swift */; };
 		373AECED21416E44003BA401 /* Web13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AECEC21416E44003BA401 /* Web13ViewController.swift */; };
 		373AECF1214271D8003BA401 /* BasicProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AECF0214271D8003BA401 /* BasicProgramViewController.swift */; };
 		376EBC5F21186AD100AD73EC /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */; };
@@ -47,8 +51,9 @@
 		3772D26C213567B5004D2C25 /* Network1203ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772D26B213567B5004D2C25 /* Network1203ViewController.swift */; };
 		3772D26E213567C7004D2C25 /* Network1204ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772D26D213567C7004D2C25 /* Network1204ViewController.swift */; };
 		3772D270213569CE004D2C25 /* MyNetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772D26F213569CE004D2C25 /* MyNetworkReachabilityManager.swift */; };
-		377DCEEA216270CD006FBA69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DCEE9216270CD006FBA69 /* AppDelegate.swift */; };
 		377DCEEC216270D5006FBA69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DCEEB216270D5006FBA69 /* ViewController.swift */; };
+		377DCEF0216273B1006FBA69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DCEEF216273B1006FBA69 /* AppDelegate.swift */; };
+		377DCEF62163462A006FBA69 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 377DCEF42163462A006FBA69 /* CoreDataModel.xcdatamodeld */; };
 		379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */; };
 		379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */; };
 		379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60020F3F0070090EACD /* MainNavViewController.swift */; };
@@ -102,6 +107,10 @@
 		372A112C2134260600C72079 /* Lament of Valkyrie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lament of Valkyrie.mp3"; sourceTree = "<group>"; };
 		372A112E2134262900C72079 /* Myriad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Myriad.mp3; sourceTree = "<group>"; };
 		372A11322134276800C72079 /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
+		373269012163B31B00A7D9A2 /* IsTouch10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTouch10ViewController.swift; sourceTree = "<group>"; };
+		373269032163B34000A7D9A2 /* TouchCategory10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchCategory10ViewController.swift; sourceTree = "<group>"; };
+		373269052163B34E00A7D9A2 /* ThreeDTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDTouchViewController.swift; sourceTree = "<group>"; };
+		37326907216CCEBF00A7D9A2 /* MoveTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTouchViewController.swift; sourceTree = "<group>"; };
 		373AECEC21416E44003BA401 /* Web13ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web13ViewController.swift; sourceTree = "<group>"; };
 		373AECF0214271D8003BA401 /* BasicProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicProgramViewController.swift; sourceTree = "<group>"; };
 		376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -140,9 +149,9 @@
 		3772D26B213567B5004D2C25 /* Network1203ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network1203ViewController.swift; sourceTree = "<group>"; };
 		3772D26D213567C7004D2C25 /* Network1204ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network1204ViewController.swift; sourceTree = "<group>"; };
 		3772D26F213569CE004D2C25 /* MyNetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		377DCEE82162707C006FBA69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Demoexam/AppDelegate.swift; sourceTree = "<group>"; };
-		377DCEE9216270CD006FBA69 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		377DCEEB216270D5006FBA69 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		377DCEEF216273B1006FBA69 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		377DCEF52163462A006FBA69 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 		379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
 		379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
 		379AC60020F3F0070090EACD /* MainNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
@@ -345,6 +354,14 @@
 			path = "27-打包和发布";
 			sourceTree = "<group>";
 		};
+		377DCF0521634B8A006FBA69 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				377DCEF42163462A006FBA69 /* CoreDataModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		379AC5F920F320E30090EACD /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -363,7 +380,6 @@
 		37A6F26220D9F26D00D878AE = {
 			isa = PBXGroup;
 			children = (
-				377DCEE82162707C006FBA69 /* AppDelegate.swift */,
 				37706EEC2145200500763593 /* 27-打包和发布 */,
 				376EBC792121DD7E00AD73EC /* 26-项目案例 */,
 				37706EEB21451FC200763593 /* 25-Model层框架 */,
@@ -411,8 +427,8 @@
 			isa = PBXGroup;
 			children = (
 				379AC5F920F320E30090EACD /* Main */,
+				377DCEEF216273B1006FBA69 /* AppDelegate.swift */,
 				377DCEEB216270D5006FBA69 /* ViewController.swift */,
-				377DCEE9216270CD006FBA69 /* AppDelegate.swift */,
 				37B81778215D075D00BD26A3 /* PrefixHeader.h */,
 				37A6F27520D9F26D00D878AE /* Assets.xcassets */,
 				37A6F27A20D9F26D00D878AE /* Info.plist */,
@@ -527,6 +543,10 @@
 			children = (
 				376EBC7C21231C5700AD73EC /* Gesture10TableViewController.swift */,
 				376EBC7E2127052F00AD73EC /* CheckGesture10ViewController.swift */,
+				373269012163B31B00A7D9A2 /* IsTouch10ViewController.swift */,
+				37326907216CCEBF00A7D9A2 /* MoveTouchViewController.swift */,
+				373269032163B34000A7D9A2 /* TouchCategory10ViewController.swift */,
+				373269052163B34E00A7D9A2 /* ThreeDTouchViewController.swift */,
 			);
 			path = "10-触控技术";
 			sourceTree = "<group>";
@@ -561,6 +581,7 @@
 		37A6F2C320E8E48A00D878AE /* 14-数据存储 */ = {
 			isa = PBXGroup;
 			children = (
+				377DCF0521634B8A006FBA69 /* CoreData */,
 				37706ECF21451BD000763593 /* Store14ViewController.swift */,
 				37706ED321451CBA00763593 /* Plist14ViewController.swift */,
 				37706ED521451CD100763593 /* Object14ViewController.swift */,
@@ -740,6 +761,8 @@
 				37706EDA21451CF300763593 /* CoreDate14ViewController.swift in Sources */,
 				37A6F29820DC079400D878AE /* First04ViewController.swift in Sources */,
 				37A6F2A120E0112700D878AE /* First05ViewController.swift in Sources */,
+				373269062163B34E00A7D9A2 /* ThreeDTouchViewController.swift in Sources */,
+				377DCEF0216273B1006FBA69 /* AppDelegate.swift in Sources */,
 				37A6F2B620E13E9A00D878AE /* First06ViewController.swift in Sources */,
 				37A6F2A520E0132A00D878AE /* Test05NavigationViewController.swift in Sources */,
 				37706ED821451CE400763593 /* SQLLite14ViewController.swift in Sources */,
@@ -748,6 +771,7 @@
 				37A6F28420D9F2C800D878AE /* SecondViewController.swift in Sources */,
 				37A6F28E20DA321600D878AE /* RoundView.swift in Sources */,
 				37A6F29C20DC07B800D878AE /* Third04ViewController.swift in Sources */,
+				37326908216CCEBF00A7D9A2 /* MoveTouchViewController.swift in Sources */,
 				373AECF1214271D8003BA401 /* BasicProgramViewController.swift in Sources */,
 				37F7E73320EE497E0046C45B /* RefreshViewController.swift in Sources */,
 				376EBC5F21186AD100AD73EC /* HomeTableViewController.swift in Sources */,
@@ -781,7 +805,6 @@
 				376EBC782120808500AD73EC /* NestedTableViewController.swift in Sources */,
 				3772D26621356388004D2C25 /* Network12ViewController.swift in Sources */,
 				379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */,
-				377DCEEA216270CD006FBA69 /* AppDelegate.swift in Sources */,
 				37B81777215D05DD00BD26A3 /* DecondeAndEncode24-1ViewController.swift in Sources */,
 				37A6F2AE20E0E86C00D878AE /* TestButton.swift in Sources */,
 				37A6F2AA20E0DE0500D878AE /* Test06TabbarViewController.swift in Sources */,
@@ -797,7 +820,10 @@
 				376EBC7D21231C5700AD73EC /* Gesture10TableViewController.swift in Sources */,
 				373AECED21416E44003BA401 /* Web13ViewController.swift in Sources */,
 				37A6F29A20DC07A700D878AE /* Second04ViewController.swift in Sources */,
+				373269022163B31B00A7D9A2 /* IsTouch10ViewController.swift in Sources */,
+				377DCEF62163462A006FBA69 /* CoreDataModel.xcdatamodeld in Sources */,
 				37A6F29F20DCBBD700D878AE /* Test04TabbarViewController.swift in Sources */,
+				373269042163B34000A7D9A2 /* TouchCategory10ViewController.swift in Sources */,
 				3772D26A213567A9004D2C25 /* Network1202ViewController.swift in Sources */,
 				37B81769214685D400BD26A3 /* P01ViewController.swift in Sources */,
 				376EBC6C211C4DEB00AD73EC /* ReadmeotherViewController.swift in Sources */,
@@ -994,6 +1020,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		377DCEF42163462A006FBA69 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				377DCEF52163462A006FBA69 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 377DCEF52163462A006FBA69 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 37A6F26320D9F26D00D878AE /* Project object */;
 }

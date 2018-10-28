@@ -11,7 +11,7 @@ import UIKit
 
 class Gesture10TableViewController: UITableViewController {
     let cellID = "cellid"
-    let gesturelist = ["触摸手势监测","监测触摸到视图","视图移动","单点触摸","双击触摸","长按触摸","捏合手势","3DTouch技术"]
+    let gesturelist = ["触摸手势监测","监测触摸到视图","视图移动","手势类型","3DTouch技术"]
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "触控技术"
@@ -33,7 +33,11 @@ class Gesture10TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let checkGesture = CheckGesture10ViewController()
-        let gestureVC = [checkGesture]
+        let isTouch = IsTouch10ViewController()
+        let moveTouch = MoveTouchViewController()
+        let touchCategory = TouchCategory10ViewController()
+        let threeDTouch = ThreeDTouchViewController()
+        let gestureVC = [checkGesture,isTouch,moveTouch,touchCategory,threeDTouch]
        
         self.navigationController?.pushViewController(gestureVC[indexPath.row], animated: true)
     }
