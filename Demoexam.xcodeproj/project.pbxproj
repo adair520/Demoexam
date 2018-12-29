@@ -13,6 +13,16 @@
 		373269042163B34000A7D9A2 /* TouchCategory10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373269032163B34000A7D9A2 /* TouchCategory10ViewController.swift */; };
 		373269062163B34E00A7D9A2 /* ThreeDTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373269052163B34E00A7D9A2 /* ThreeDTouchViewController.swift */; };
 		37326908216CCEBF00A7D9A2 /* MoveTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37326907216CCEBF00A7D9A2 /* MoveTouchViewController.swift */; };
+		3732690A2186224000A7D9A2 /* Archive27ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373269092186224000A7D9A2 /* Archive27ViewController.swift */; };
+		3732690C2186229F00A7D9A2 /* Model25ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732690B2186229F00A7D9A2 /* Model25ViewController.swift */; };
+		3732690E218622D300A7D9A2 /* Local23ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732690D218622D300A7D9A2 /* Local23ViewController.swift */; };
+		37326910218622F300A7D9A2 /* CheckMem22ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732690F218622F300A7D9A2 /* CheckMem22ViewController.swift */; };
+		373269122186231C00A7D9A2 /* Test21ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373269112186231C00A7D9A2 /* Test21ViewController.swift */; };
+		373269142186234000A7D9A2 /* Storyboard20ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373269132186234000A7D9A2 /* Storyboard20ViewController.swift */; };
+		373269162186235C00A7D9A2 /* Device19ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373269152186235C00A7D9A2 /* Device19ViewController.swift */; };
+		373269182186238400A7D9A2 /* ImageAndVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373269172186238400A7D9A2 /* ImageAndVideoViewController.swift */; };
+		3732691A218623BD00A7D9A2 /* MutalText17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37326919218623BD00A7D9A2 /* MutalText17ViewController.swift */; };
+		3732691C218623EB00A7D9A2 /* ProDemo26ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732691B218623EB00A7D9A2 /* ProDemo26ViewController.swift */; };
 		373AECED21416E44003BA401 /* Web13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AECEC21416E44003BA401 /* Web13ViewController.swift */; };
 		373AECF1214271D8003BA401 /* BasicProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AECF0214271D8003BA401 /* BasicProgramViewController.swift */; };
 		376EBC5F21186AD100AD73EC /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */; };
@@ -111,6 +121,16 @@
 		373269032163B34000A7D9A2 /* TouchCategory10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchCategory10ViewController.swift; sourceTree = "<group>"; };
 		373269052163B34E00A7D9A2 /* ThreeDTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDTouchViewController.swift; sourceTree = "<group>"; };
 		37326907216CCEBF00A7D9A2 /* MoveTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTouchViewController.swift; sourceTree = "<group>"; };
+		373269092186224000A7D9A2 /* Archive27ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archive27ViewController.swift; sourceTree = "<group>"; };
+		3732690B2186229F00A7D9A2 /* Model25ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model25ViewController.swift; sourceTree = "<group>"; };
+		3732690D218622D300A7D9A2 /* Local23ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local23ViewController.swift; sourceTree = "<group>"; };
+		3732690F218622F300A7D9A2 /* CheckMem22ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMem22ViewController.swift; sourceTree = "<group>"; };
+		373269112186231C00A7D9A2 /* Test21ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test21ViewController.swift; sourceTree = "<group>"; };
+		373269132186234000A7D9A2 /* Storyboard20ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard20ViewController.swift; sourceTree = "<group>"; };
+		373269152186235C00A7D9A2 /* Device19ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device19ViewController.swift; sourceTree = "<group>"; };
+		373269172186238400A7D9A2 /* ImageAndVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndVideoViewController.swift; sourceTree = "<group>"; };
+		37326919218623BD00A7D9A2 /* MutalText17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutalText17ViewController.swift; sourceTree = "<group>"; };
+		3732691B218623EB00A7D9A2 /* ProDemo26ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProDemo26ViewController.swift; sourceTree = "<group>"; };
 		373AECEC21416E44003BA401 /* Web13ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web13ViewController.swift; sourceTree = "<group>"; };
 		373AECF0214271D8003BA401 /* BasicProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicProgramViewController.swift; sourceTree = "<group>"; };
 		376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -278,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				373AECEE2142713C003BA401 /* NoteBook */,
+				3732691B218623EB00A7D9A2 /* ProDemo26ViewController.swift */,
 			);
 			path = "26-项目案例";
 			sourceTree = "<group>";
@@ -285,6 +306,7 @@
 		37706EE321451EBC00763593 /* 17-图文混排 */ = {
 			isa = PBXGroup;
 			children = (
+				37326919218623BD00A7D9A2 /* MutalText17ViewController.swift */,
 			);
 			path = "17-图文混排";
 			sourceTree = "<group>";
@@ -292,6 +314,7 @@
 		37706EE421451ED100763593 /* 18-图像和视频处理 */ = {
 			isa = PBXGroup;
 			children = (
+				373269172186238400A7D9A2 /* ImageAndVideoViewController.swift */,
 			);
 			path = "18-图像和视频处理";
 			sourceTree = "<group>";
@@ -299,6 +322,7 @@
 		37706EE521451EE700763593 /* 19-常用设备 */ = {
 			isa = PBXGroup;
 			children = (
+				373269152186235C00A7D9A2 /* Device19ViewController.swift */,
 			);
 			path = "19-常用设备";
 			sourceTree = "<group>";
@@ -306,6 +330,7 @@
 		37706EE621451F2A00763593 /* 20-Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				373269132186234000A7D9A2 /* Storyboard20ViewController.swift */,
 			);
 			path = "20-Storyboard";
 			sourceTree = "<group>";
@@ -313,6 +338,7 @@
 		37706EE721451F4B00763593 /* 21-测试技术 */ = {
 			isa = PBXGroup;
 			children = (
+				373269112186231C00A7D9A2 /* Test21ViewController.swift */,
 			);
 			path = "21-测试技术";
 			sourceTree = "<group>";
@@ -320,6 +346,7 @@
 		37706EE821451F8200763593 /* 22-内存泄露检测 */ = {
 			isa = PBXGroup;
 			children = (
+				3732690F218622F300A7D9A2 /* CheckMem22ViewController.swift */,
 			);
 			path = "22-内存泄露检测";
 			sourceTree = "<group>";
@@ -327,6 +354,7 @@
 		37706EE921451F9700763593 /* 23-本地化应用 */ = {
 			isa = PBXGroup;
 			children = (
+				3732690D218622D300A7D9A2 /* Local23ViewController.swift */,
 			);
 			path = "23-本地化应用";
 			sourceTree = "<group>";
@@ -343,6 +371,7 @@
 		37706EEB21451FC200763593 /* 25-Model层框架 */ = {
 			isa = PBXGroup;
 			children = (
+				3732690B2186229F00A7D9A2 /* Model25ViewController.swift */,
 			);
 			path = "25-Model层框架";
 			sourceTree = "<group>";
@@ -350,6 +379,7 @@
 		37706EEC2145200500763593 /* 27-打包和发布 */ = {
 			isa = PBXGroup;
 			children = (
+				373269092186224000A7D9A2 /* Archive27ViewController.swift */,
 			);
 			path = "27-打包和发布";
 			sourceTree = "<group>";
@@ -756,11 +786,14 @@
 				37B81773215B624500BD26A3 /* Decode andEncode24ViewController.swift in Sources */,
 				3772D26C213567B5004D2C25 /* Network1203ViewController.swift in Sources */,
 				37706EDE21451DF500763593 /* Operation15ViewController.swift in Sources */,
+				373269182186238400A7D9A2 /* ImageAndVideoViewController.swift in Sources */,
 				37F7E73120EE19CE0046C45B /* Test09CollectionViewController.swift in Sources */,
 				37A6F29420DA34BA00D878AE /* OldViewController.swift in Sources */,
 				37706EDA21451CF300763593 /* CoreDate14ViewController.swift in Sources */,
 				37A6F29820DC079400D878AE /* First04ViewController.swift in Sources */,
+				373269142186234000A7D9A2 /* Storyboard20ViewController.swift in Sources */,
 				37A6F2A120E0112700D878AE /* First05ViewController.swift in Sources */,
+				3732691A218623BD00A7D9A2 /* MutalText17ViewController.swift in Sources */,
 				373269062163B34E00A7D9A2 /* ThreeDTouchViewController.swift in Sources */,
 				377DCEF0216273B1006FBA69 /* AppDelegate.swift in Sources */,
 				37A6F2B620E13E9A00D878AE /* First06ViewController.swift in Sources */,
@@ -777,6 +810,7 @@
 				376EBC5F21186AD100AD73EC /* HomeTableViewController.swift in Sources */,
 				379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */,
 				37A6F2B020E13E1500D878AE /* TestSwitch.swift in Sources */,
+				37326910218622F300A7D9A2 /* CheckMem22ViewController.swift in Sources */,
 				37706EE021451E0200763593 /* GCD15ViewController.swift in Sources */,
 				376EBC8121294BFA00AD73EC /* Media11ViewController.swift in Sources */,
 				377DCEEC216270D5006FBA69 /* ViewController.swift in Sources */,
@@ -785,6 +819,8 @@
 				379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */,
 				37A6F29220DA332300D878AE /* TestViewController.swift in Sources */,
 				37A6F28620D9F2DF00D878AE /* PageViewController.swift in Sources */,
+				3732690A2186224000A7D9A2 /* Archive27ViewController.swift in Sources */,
+				373269162186235C00A7D9A2 /* Device19ViewController.swift in Sources */,
 				37A6F2A820E0DDA100D878AE /* TestLabel.swift in Sources */,
 				37A6F2B220E13E4500D878AE /* TestRefreshControl.swift in Sources */,
 				379AC61120FCD9D40090EACD /* Test08Tableviewcell.swift in Sources */,
@@ -805,6 +841,7 @@
 				376EBC782120808500AD73EC /* NestedTableViewController.swift in Sources */,
 				3772D26621356388004D2C25 /* Network12ViewController.swift in Sources */,
 				379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */,
+				3732691C218623EB00A7D9A2 /* ProDemo26ViewController.swift in Sources */,
 				37B81777215D05DD00BD26A3 /* DecondeAndEncode24-1ViewController.swift in Sources */,
 				37A6F2AE20E0E86C00D878AE /* TestButton.swift in Sources */,
 				37A6F2AA20E0DE0500D878AE /* Test06TabbarViewController.swift in Sources */,
@@ -814,9 +851,11 @@
 				376EBC6A211C4D2200AD73EC /* ReadMeViewController.swift in Sources */,
 				37706ED221451BF800763593 /* MutalProgress15ViewController.swift in Sources */,
 				37A6F2BA20E13EB700D878AE /* Third06ViewController.swift in Sources */,
+				3732690C2186229F00A7D9A2 /* Model25ViewController.swift in Sources */,
 				37A6F2B820E13EA700D878AE /* Second06ViewController.swift in Sources */,
 				376EBC742120804000AD73EC /* InsertTableViewController.swift in Sources */,
 				376EBC87212950D700AD73EC /* Video11ViewController.swift in Sources */,
+				373269122186231C00A7D9A2 /* Test21ViewController.swift in Sources */,
 				376EBC7D21231C5700AD73EC /* Gesture10TableViewController.swift in Sources */,
 				373AECED21416E44003BA401 /* Web13ViewController.swift in Sources */,
 				37A6F29A20DC07A700D878AE /* Second04ViewController.swift in Sources */,
@@ -832,6 +871,7 @@
 				3772D2682135679A004D2C25 /* Network1201ViewController.swift in Sources */,
 				37A6F2A320E0113600D878AE /* Second05ViewController.swift in Sources */,
 				37B8176D2147E10C00BD26A3 /* WKWeb13ViewController.swift in Sources */,
+				3732690E218622D300A7D9A2 /* Local23ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

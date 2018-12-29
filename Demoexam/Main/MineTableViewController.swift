@@ -16,6 +16,7 @@ class MineTableViewController: UITableViewController {
         super.viewDidLoad()
         self.navigationController?.navigationBar.backgroundColor = UIColor.darkGray
         self.navigationItem.title = "设置说明"
+        tableView.tableFooterView = UIView()
     }
 
 
