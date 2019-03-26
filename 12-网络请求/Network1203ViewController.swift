@@ -15,13 +15,13 @@ class Network1203ViewController: UIViewController {
         super.viewDidLoad()
         ///1、上传
         let upBtn = UIButton(frame: CGRect(x: 20, y: 100, width: 100, height: 44))
-        upBtn.setTitle("上传", for: UIControlState())
+        upBtn.setTitle("上传", for: UIControl.State())
         upBtn.backgroundColor = UIColor.yellow
         upBtn.addTarget(self, action: #selector(Network1203ViewController.upLoad), for: .touchUpInside)
         self.view.addSubview(upBtn)
         ///1、下载
         let downBtn = UIButton(frame: CGRect(x: 20, y: 200, width: 100, height: 44))
-        downBtn.setTitle("下载", for: UIControlState())
+        downBtn.setTitle("下载", for: UIControl.State())
         downBtn.backgroundColor = UIColor.lightGray
         downBtn.addTarget(self, action: #selector(Network1203ViewController.downLoad), for: .touchUpInside)
         self.view.addSubview(downBtn)

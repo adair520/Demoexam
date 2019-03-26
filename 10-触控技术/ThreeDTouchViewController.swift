@@ -24,10 +24,10 @@ class ThreeDTouchViewController: UIViewController {
     let unlockEvent = UIApplicationShortcutItem(type: "com.coolketang.unlockMember", localizedTitle: "解锁会员", localizedSubtitle: "Unlock Member", icon: unlockEventIcon, userInfo: nil)
     let listEvent = UIApplicationShortcutItem(type: "com.coolketang.memberList", localizedTitle: "会员列表", localizedSubtitle: "Members List", icon: listEventIcon, userInfo: nil)
     
-    let shortCutItems = [addEvent, unlockEvent, listEvent]
-   // application.shortcutItems = shortCutItems;
-    print("跳转至添加会员页面。")
-    //return true
+        _ = [addEvent, unlockEvent, listEvent]
+    //   application.shortcutItems = shortCutItems;
+    //    print("跳转至添加会员页面。")
+    //    return true
     }
     
     func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: (Bool) -> Void) {

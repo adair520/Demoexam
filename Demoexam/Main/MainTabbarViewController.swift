@@ -25,7 +25,7 @@ class MainTabbarViewController: UITabBarController {
         
         let courseVC = CourseTableViewController()
         let courseNav = UINavigationController(rootViewController: courseVC)
-        courseNav.tabBarItem.image = UIImage(named: "plus")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        courseNav.tabBarItem.image = UIImage(named: "plus")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         
         let mineVC = MineTableViewController()
         let mineNav = UINavigationController(rootViewController: mineVC)

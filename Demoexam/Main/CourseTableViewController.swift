@@ -8,15 +8,32 @@
 
 import UIKit
 
-class CourseTableViewController: UIViewController {
+class CourseTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "语法教程"
-        let path = Bundle.main.path(forResource: "swift3中文版", ofType: "pdf")
-        let url = URL.init(fileURLWithPath: path!)
-        let data = try!Data(contentsOf: url)
-        let webview = UIWebView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
-        webview.load(data, mimeType: "application/pdf", textEncodingName: "utf-8", baseURL: NSURL() as URL)
-        self.view.addSubview(webview)
+        setupleftbtn()
+        setuprightbtn()
+        
+    }
+    func setupleftbtn(){
+        let leftitem = UIBarButtonItem(title: "电子书", style: .plain, target: self, action: #selector(CourseTableViewController.openleftebookVC))
+        self.navigationItem.leftBarButtonItem = leftitem
+        
+    }
+    
+    func setuprightbtn(){
+        let rightitem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(CourseTableViewController.openRightebookVC))
+        rightitem.title = "其他版本"
+        self.navigationItem.rightBarButtonItem = rightitem
+        
+    }
+    @objc func openleftebookVC(){
+        self.navigationController?.pushViewController(EbookViewController()
+            , animated: true)
+    }
+    @objc func openRightebookVC(){
+        
     }
 }
+
+

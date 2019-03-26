@@ -34,15 +34,15 @@ class SelectedTableViewController: UITableViewController {
  
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath)
-        if cell?.accessoryType == UITableViewCellAccessoryType.none {
-            cell?.accessoryType = UITableViewCellAccessoryType.detailDisclosureButton
+        if cell?.accessoryType == UITableViewCell.AccessoryType.none {
+            cell?.accessoryType = UITableViewCell.AccessoryType.detailDisclosureButton
             let acertVC = UIAlertController(title: "点击\(cell?.textLabel?.text ?? "")", message: "点击这个", preferredStyle: .alert)
             let action = UIAlertAction(title: "点击\(cell?.textLabel?.text ?? "")", style: .default, handler: nil)
             acertVC.addAction(action)
             self.present(acertVC, animated: true, completion: nil)
         }else{
             
-            cell?.accessoryType = UITableViewCellAccessoryType.checkmark
+            cell?.accessoryType = UITableViewCell.AccessoryType.checkmark
            
             
         }

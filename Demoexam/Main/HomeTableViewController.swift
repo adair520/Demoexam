@@ -58,7 +58,7 @@ class HomeTableViewController: UITableViewController {
         let cellID = "cellid"
         var cell = tableView.dequeueReusableCell(withIdentifier: cellID)
         if (cell == nil) {
-            cell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: cellID)
+            cell = UITableViewCell(style: UITableViewCell.CellStyle.subtitle, reuseIdentifier: cellID)
         }
         cell?.imageView?.image = UIImage(named: "titlecell")
         cell?.textLabel?.text = contentList[indexPath.row]

@@ -22,7 +22,7 @@ class NewViewController: UIViewController {
         
         let button = UIButton(frame: CGRect(x: 40, y: 180, width: 240, height: 44))
         button.backgroundColor = UIColor.gray
-        button.setTitle("close", for: UIControlState())
+        button.setTitle("close", for: UIControl.State())
         button.addTarget(self, action: #selector(NewViewController.dissmissSelf), for:.touchUpInside)
         self.view.addSubview(button)
         

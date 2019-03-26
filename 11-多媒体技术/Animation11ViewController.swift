@@ -34,28 +34,28 @@ class Animation11ViewController: UIViewController,CAAnimationDelegate {
         let button1 = UIButton(type: .system)
         button1.frame  = CGRect(x: 20, y: 500, width: 100, height: 24)
         button1.backgroundColor = UIColor.black
-        button1.setTitle("UIKit实现动画", for: UIControlState())
+        button1.setTitle("UIKit实现动画", for: UIControl.State())
         button1.addTarget(self, action: #selector(Animation11ViewController.playAnimation), for: .touchUpInside)
         self.view.addSubview(button1)
         
         let button2 = UIButton(type: .system)
         button2.frame  = CGRect(x: 200, y: 500, width: 100, height: 24)
         button2.backgroundColor = UIColor.purple
-        button2.setTitle("帧动画", for: UIControlState())
+        button2.setTitle("帧动画", for: UIControl.State())
         button2.addTarget(self, action: #selector(Animation11ViewController.imagesanimation), for: .touchUpInside)
         self.view.addSubview(button2)
         
         let button3 = UIButton(type: .system)
         button3.frame  = CGRect(x: 20, y: 550, width: 100, height: 24)
         button3.backgroundColor = UIColor.purple
-        button3.setTitle("关键帧动画", for: UIControlState())
+        button3.setTitle("关键帧动画", for: UIControl.State())
         button3.addTarget(self, action: #selector(Animation11ViewController.keyanimation), for: .touchUpInside)
         self.view.addSubview(button3)
         
         let button4 = UIButton(type: .system)
         button4.frame  = CGRect(x: 200, y: 550, width: 100, height: 24)
         button4.backgroundColor = UIColor.purple
-        button4.setTitle("Animate实现动画", for: UIControlState())
+        button4.setTitle("Animate实现动画", for: UIControl.State())
         button4.addTarget(self, action: #selector(Animation11ViewController.useanimate), for: .touchUpInside)
         self.view.addSubview(button4)
     }

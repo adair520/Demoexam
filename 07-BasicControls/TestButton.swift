@@ -25,7 +25,7 @@ class TestButton: UIButton {
         //设置按钮位置和大小
         self.frame = CGRect(x: 200, y:64, width: 100, height: 50)
         //设置按钮文字
-        self.setTitle("按钮", for:UIControlState.normal)
+        self.setTitle("按钮", for:UIControl.State.normal)
         
         //2.对于Custom定制类型按钮，代码可简化为：
         
@@ -33,9 +33,9 @@ class TestButton: UIButton {
         
         //3.按钮的文字设置
         
-        self.setTitle("普通状态", for:UIControlState.normal) //普通状态下的文字
-        self.setTitle("触摸状态", for:UIControlState.highlighted) //触摸状态下的文字
-        self.setTitle("禁用状态", for:UIControlState.disabled) //禁用状态下的文字
+        self.setTitle("普通状态", for:UIControl.State.normal) //普通状态下的文字
+        self.setTitle("触摸状态", for:UIControl.State.highlighted) //触摸状态下的文字
+        self.setTitle("禁用状态", for:UIControl.State.disabled) //禁用状态下的文字
         
         //4.按钮文字颜色的设置
         

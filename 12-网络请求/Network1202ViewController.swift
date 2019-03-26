@@ -15,22 +15,22 @@ class Network1202ViewController: UIViewController {
         super.viewDidLoad()
         self.title = "GET和POST"
         let btn = UIButton(frame: CGRect(x: 40, y: 100, width: 200, height: 50))
-        btn.setTitle("GET", for: UIControlState())
-        btn.setTitleColor(.blue, for: UIControlState())
+        btn.setTitle("GET", for: UIControl.State())
+        btn.setTitleColor(.blue, for: UIControl.State())
         btn.titleLabel?.textAlignment = .center
         btn.backgroundColor = UIColor.yellow
         btn.addTarget(self, action: #selector(Network1202ViewController.clickbtn), for: .touchUpInside)
         self.view.addSubview(btn)
         let btn1 = UIButton(frame: CGRect(x: 40, y: 200, width: 200, height: 50))
-        btn1.setTitle("POST", for: UIControlState())
-        btn1.setTitleColor(.blue, for: UIControlState())
+        btn1.setTitle("POST", for: UIControl.State())
+        btn1.setTitleColor(.blue, for: UIControl.State())
         btn1.titleLabel?.textAlignment = .center
         btn1.backgroundColor = UIColor.purple
         btn1.addTarget(self, action: #selector(Network1202ViewController.clickbtn1), for: .touchUpInside)
         self.view.addSubview(btn1)
         let btn2 = UIButton(frame: CGRect(x: 40, y: 300, width: 200, height: 50))
-        btn2.setTitle("Delete", for: UIControlState())
-        btn2.setTitleColor(.blue, for: UIControlState())
+        btn2.setTitle("Delete", for: UIControl.State())
+        btn2.setTitleColor(.blue, for: UIControl.State())
         btn2.titleLabel?.textAlignment = .center
         btn2.backgroundColor = UIColor.lightGray
         btn2.addTarget(self, action: #selector(Network1202ViewController.clickbtn2(_:)), for: .touchUpInside)

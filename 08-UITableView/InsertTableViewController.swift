@@ -35,14 +35,14 @@ class InsertTableViewController: UITableViewController {
         return cell!
     }
     
-    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
         if indexPath.row % 2 == 0 {
             return .insert
         }else  {
             return .delete
         }
     }
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .insert {
             lever.insert("超级", at: indexPath.row)
             tableView.insertRows(at: [indexPath], with: .automatic)

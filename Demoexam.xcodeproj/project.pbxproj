@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37059BD8224607DE00F22CD4 /* EbookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37059BD7224607DE00F22CD4 /* EbookViewController.swift */; };
 		372A112D2134260600C72079 /* Lament of Valkyrie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 372A112C2134260600C72079 /* Lament of Valkyrie.mp3 */; };
 		372A112F2134262900C72079 /* Myriad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 372A112E2134262900C72079 /* Myriad.mp3 */; };
 		373269022163B31B00A7D9A2 /* IsTouch10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373269012163B31B00A7D9A2 /* IsTouch10ViewController.swift */; };
@@ -114,6 +115,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37059BD7224607DE00F22CD4 /* EbookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EbookViewController.swift; sourceTree = "<group>"; };
 		372A112C2134260600C72079 /* Lament of Valkyrie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lament of Valkyrie.mp3"; sourceTree = "<group>"; };
 		372A112E2134262900C72079 /* Myriad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Myriad.mp3; sourceTree = "<group>"; };
 		372A11322134276800C72079 /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
@@ -246,6 +248,16 @@
 				D9CEFD6EB7BB852E813A93EA /* Pods_Demoexam.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37059BD6224607BB00F22CD4 /* Ebook */ = {
+			isa = PBXGroup;
+			children = (
+				37059BD7224607DE00F22CD4 /* EbookViewController.swift */,
+				376EBC602118A99400AD73EC /* swift3中文版.pdf */,
+				376EBC632118AC1E00AD73EC /* swift4英文版.pdf */,
+			);
+			path = Ebook;
 			sourceTree = "<group>";
 		};
 		372A112B213425BB00C72079 /* 多媒体素材 */ = {
@@ -395,9 +407,8 @@
 		379AC5F920F320E30090EACD /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				37059BD6224607BB00F22CD4 /* Ebook */,
 				373AECEF214271AF003BA401 /* BasicProgram */,
-				376EBC632118AC1E00AD73EC /* swift4英文版.pdf */,
-				376EBC602118A99400AD73EC /* swift3中文版.pdf */,
 				379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */,
 				376EBC5E21186AD100AD73EC /* HomeTableViewController.swift */,
 				379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */,
@@ -693,6 +704,7 @@
 				TargetAttributes = {
 					37A6F26A20D9F26D00D878AE = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -785,6 +797,7 @@
 				37F7E72F20EE19AD0046C45B /* Test08TableviewViewController.swift in Sources */,
 				37B81773215B624500BD26A3 /* Decode andEncode24ViewController.swift in Sources */,
 				3772D26C213567B5004D2C25 /* Network1203ViewController.swift in Sources */,
+				37059BD8224607DE00F22CD4 /* EbookViewController.swift in Sources */,
 				37706EDE21451DF500763593 /* Operation15ViewController.swift in Sources */,
 				373269182186238400A7D9A2 /* ImageAndVideoViewController.swift in Sources */,
 				37F7E73120EE19CE0046C45B /* Test09CollectionViewController.swift in Sources */,
@@ -1010,7 +1023,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/adairwang/移动开发仓库/eBook/Demoexam/Demoexam/PrefixHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1033,7 +1046,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/adairwang/移动开发仓库/eBook/Demoexam/Demoexam/PrefixHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

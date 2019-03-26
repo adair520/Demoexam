@@ -15,6 +15,7 @@ class Decode_andEncode24ViewController: UIViewController {
         super.viewDidLoad()
         //bytes转Data
         let data = Data(bytes: [0x01, 0x02, 0x03])
+        print(data)
         
         //Data转bytes
         let bytes1 = data.bytes

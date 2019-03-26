@@ -34,7 +34,7 @@ class  PageViewController:UIViewController,UIScrollViewDelegate {
         pageControl.numberOfPages = 2
         pageControl.currentPage = 0
         pageControl.backgroundColor = UIColor.gray
-        pageControl.addTarget(self, action: #selector(PageViewController.pageControlDidChanged), for: UIControlEvents.valueChanged)
+        pageControl.addTarget(self, action: #selector(PageViewController.pageControlDidChanged), for: UIControl.Event.valueChanged)
         let firstController = FirstViewController()
         screenFrame.origin.x = 0
         firstController.view.frame = screenFrame

@@ -12,7 +12,7 @@ class Test08Tableviewcell: UITableViewCell {
     var title:UILabel!
     var detail:UILabel!
     var clickbtn:UIButton!
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.imageview = UIImageView(image: UIImage(named: "mine"))
         self.imageview.center = CGPoint(x: 10, y: 10)

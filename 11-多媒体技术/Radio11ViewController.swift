@@ -25,13 +25,13 @@ class Radio11ViewController: UIViewController,AVAudioPlayerDelegate {
         let button1 = UIButton(type: .system)
         button1.frame  = CGRect(x: 20, y: 500, width: 100, height: 24)
         button1.backgroundColor = UIColor.black
-        button1.setTitle("短音播放", for: UIControlState())
+        button1.setTitle("短音播放", for: UIControl.State())
         button1.addTarget(self, action: #selector(Radio11ViewController.shortRadioPlay), for: .touchUpInside)
         self.view.addSubview(button1)
         let button2 = UIButton(type: .system)
         button2.frame  = CGRect(x: (UIScreen.main.bounds.size.width-30)/2, y: 500, width: 100, height: 24)
         button2.backgroundColor = UIColor.black
-        button2.setTitle("长音播放", for: UIControlState())
+        button2.setTitle("长音播放", for: UIControl.State())
         button2.addTarget(self, action: #selector(Radio11ViewController.longRadioPlay), for: .touchUpInside)
         self.view.addSubview(button2)
     }

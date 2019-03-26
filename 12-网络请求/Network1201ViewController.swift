@@ -14,8 +14,8 @@ class Network1201ViewController: UIViewController {
         super.viewDidLoad()
         self.title = "检测网络环境"
         let btn = UIButton(frame: CGRect(x: 40, y: 100, width: 200, height: 50))
-        btn.setTitle("开始检测", for: UIControlState())
-        btn.setTitleColor(.blue, for: UIControlState())
+        btn.setTitle("开始检测", for: UIControl.State())
+        btn.setTitleColor(.blue, for: UIControl.State())
         btn.titleLabel?.textAlignment = .center
         btn.backgroundColor = UIColor.yellow
         btn.addTarget(self, action: #selector(Network1201ViewController.clickbtn), for: .touchUpInside)

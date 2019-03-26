@@ -75,7 +75,7 @@ class TouchCategory10ViewController: UIViewController {
                 } else { // 缩小
                     imgView.transform = CGAffineTransform(scaleX: lastScaleFactor * factor, y: lastScaleFactor * factor)
                 }
-                if sender.state == UIGestureRecognizerState.ended {
+        if sender.state == UIGestureRecognizer.State.ended {
                     if factor > 1 {
                         lastScaleFactor = lastScaleFactor + factor - 1
                     } else {
@@ -89,7 +89,7 @@ class TouchCategory10ViewController: UIViewController {
                 let rotation = sender.rotation
                 print("rotation", rotation)
                 imgView.transform = CGAffineTransform(rotationAngle: rotation + netRotation)
-                if sender.state == UIGestureRecognizerState.ended {
+        if sender.state == UIGestureRecognizer.State.ended {
                     netRotation += rotation
                 }
     }
@@ -102,7 +102,7 @@ class TouchCategory10ViewController: UIViewController {
                 print("UIPanGestureRecognizer")
                 let translation = sender.translation(in: imgView)
                  imgView.transform = CGAffineTransform(translationX: netTranslation.x + translation.x, y: translation.y + netTranslation.y)
-                 if sender.state == UIGestureRecognizerState.ended {
+        if sender.state == UIGestureRecognizer.State.ended {
                     netTranslation.x += translation.x
                     netTranslation.y += translation.y
                 }
@@ -110,7 +110,7 @@ class TouchCategory10ViewController: UIViewController {
     
     @objc func handleLongPressGesture(sender: UILongPressGestureRecognizer) {
                 print("handleLongPressGesture")
-                if sender.state == UIGestureRecognizerState.began {
+        if sender.state == UIGestureRecognizer.State.began {
                     print("----------")
                 }
         

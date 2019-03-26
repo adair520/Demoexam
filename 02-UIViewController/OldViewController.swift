@@ -33,7 +33,7 @@ class OldViewController: UIViewController {
         self.view.addSubview(label)
         
         let button = UIButton(frame: CGRect(x: 40, y: 180, width: 240, height: 44))
-        button.setTitle("打开新的视图控制器", for: UIControlState())
+        button.setTitle("打开新的视图控制器", for: UIControl.State())
         button.backgroundColor = UIColor.black
         button.addTarget(self, action: #selector(OldViewController.openViewController), for: .touchUpInside)
         

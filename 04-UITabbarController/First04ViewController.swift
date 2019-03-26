@@ -22,7 +22,7 @@ class First04ViewController: UIViewController {
         self.view.addSubview(label)
         
         let btn = UIButton(frame: CGRect(x: 40, y: 220, width: 240, height: 44))
-        btn.setTitle("进入第二页", for:UIControlState())
+        btn.setTitle("进入第二页", for:UIControl.State())
         btn.backgroundColor = UIColor.black
         btn.addTarget(self, action: #selector(First04ViewController.openSecondVC), for: .touchUpInside)
         self.view.addSubview(btn)
