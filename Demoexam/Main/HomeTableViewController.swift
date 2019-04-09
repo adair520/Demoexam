@@ -91,7 +91,7 @@ class HomeTableViewController: UITableViewController {
         let test21 = Test21ViewController()
         let test22 = CheckMem22ViewController()
         let test23 = Local23ViewController()
-        let test24 = DecondeAndEncode24_1ViewController()
+        let test24 = Decode_andEncode24ViewController()
         let test25 = Archive27ViewController()
         let test26 = ProDemo26ViewController()
         let test27 = Archive27ViewController()

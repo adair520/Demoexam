@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+/*
 enum CryptoAlgorithm {
     case MD5, SHA1, SHA224, SHA256, SHA384, SHA512
     
@@ -54,7 +54,8 @@ class DecondeAndEncode24_1ViewController: UIViewController {
        
    }
 }
-
+*/
+/*
 extension String  {
     var md5: String! {
         let str = self.cString(using: String.Encoding.utf8)
@@ -62,7 +63,7 @@ extension String  {
         let digestLen = Int(CC_MD5_DIGEST_LENGTH)
         let result = UnsafeMutablePointer<CUnsignedChar>.allocate(capacity: digestLen)
         CC_MD5(str!, strLen, result)
-        return stringFromBytes(bytes: result, length: digestLen)
+        return stringFromBytes( result, length: digestLen)
     }
     
     var sha1: String! {
@@ -71,7 +72,7 @@ extension String  {
         let digestLen = Int(CC_SHA1_DIGEST_LENGTH)
         let result = UnsafeMutablePointer<CUnsignedChar>.allocate(capacity: digestLen)
         CC_SHA1(str!, strLen, result)
-        return stringFromBytes(bytes: result, length: digestLen)
+        return stringFromBytes( result, length: digestLen)
     }
     
     var sha256String: String! {
@@ -80,7 +81,7 @@ extension String  {
         let digestLen = Int(CC_SHA256_DIGEST_LENGTH)
         let result = UnsafeMutablePointer<CUnsignedChar>.allocate(capacity: digestLen)
         CC_SHA256(str!, strLen, result)
-        return stringFromBytes(bytes: result, length: digestLen)
+        return stringFromBytes( result, length: digestLen)
     }
     
     var sha512String: String! {
@@ -89,17 +90,17 @@ extension String  {
         let digestLen = Int(CC_SHA512_DIGEST_LENGTH)
         let result = UnsafeMutablePointer<CUnsignedChar>.allocate(capacity: digestLen)
         CC_SHA512(str!, strLen, result)
-        return stringFromBytes(bytes: result, length: digestLen)
+        return stringFromBytes( result, length: digestLen)
     }
-    
-    func stringFromBytes(bytes: UnsafeMutablePointer<CUnsignedChar>, length: Int) -> String{
-        let hash = NSMutableString()
-        for i in 0..<length {
-            hash.appendFormat("%02x", bytes[i])
-        }
-        bytes.deallocate()
-        return String(format: hash as String)
-    }
+//    
+//    func stringFromBytes( UnsafeMutablePointer<CUnsignedChar>, length: Int) -> String{
+//        let hash = NSMutableString()
+//        for i in 0..<length {
+//            hash.appendFormat("%02x", bytes[i])
+//        }
+//        bytes.deallocate()
+//        return String(format: hash as String)
+//    }
     
     func hmac(algorithm: CryptoAlgorithm, key: String) -> String {
         let str = self.cString(using: String.Encoding.utf8)
@@ -125,4 +126,6 @@ extension String  {
         }
         return String(hash)
     }
+
 }
+ */

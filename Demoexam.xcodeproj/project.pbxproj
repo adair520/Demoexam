@@ -72,6 +72,7 @@
 		379AC60920FCD7DA0090EACD /* MYTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60820FCD7DA0090EACD /* MYTableViewController.swift */; };
 		379AC61120FCD9D40090EACD /* Test08Tableviewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC61020FCD9D40090EACD /* Test08Tableviewcell.swift */; };
 		379AC61320FCE0160090EACD /* IndexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC61220FCE0160090EACD /* IndexTableViewController.swift */; };
+		37A22C26225B8EA900C57835 /* swift3.0.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 37A22C25225B8EA900C57835 /* swift3.0.rtf */; };
 		37A6F27620D9F26D00D878AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A6F27520D9F26D00D878AE /* Assets.xcassets */; };
 		37A6F28220D9F2B500D878AE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F28120D9F2B500D878AE /* FirstViewController.swift */; };
 		37A6F28420D9F2C800D878AE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A6F28320D9F2C800D878AE /* SecondViewController.swift */; };
@@ -181,6 +182,8 @@
 		379AC60820FCD7DA0090EACD /* MYTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYTableViewController.swift; sourceTree = "<group>"; };
 		379AC61020FCD9D40090EACD /* Test08Tableviewcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test08Tableviewcell.swift; sourceTree = "<group>"; };
 		379AC61220FCE0160090EACD /* IndexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexTableViewController.swift; sourceTree = "<group>"; };
+		37A22C23225B84F300C57835 /* Highlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Highlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A22C25225B8EA900C57835 /* swift3.0.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = swift3.0.rtf; sourceTree = "<group>"; };
 		37A6F26B20D9F26D00D878AE /* Demoexam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demoexam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A6F27520D9F26D00D878AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A6F27A20D9F26D00D878AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -244,6 +247,7 @@
 		19FA76B600A30D7E7D075847 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37A22C23225B84F300C57835 /* Highlightr.framework */,
 				37B81779215D1E9F00BD26A3 /* libsqlite3.0.tbd */,
 				D9CEFD6EB7BB852E813A93EA /* Pods_Demoexam.framework */,
 			);
@@ -253,6 +257,7 @@
 		37059BD6224607BB00F22CD4 /* Ebook */ = {
 			isa = PBXGroup;
 			children = (
+				37A22C25225B8EA900C57835 /* swift3.0.rtf */,
 				37059BD7224607DE00F22CD4 /* EbookViewController.swift */,
 				376EBC602118A99400AD73EC /* swift3中文版.pdf */,
 				376EBC632118AC1E00AD73EC /* swift4英文版.pdf */,
@@ -733,6 +738,7 @@
 			files = (
 				37A6F27620D9F26D00D878AE /* Assets.xcassets in Resources */,
 				376EBC612118A99400AD73EC /* swift3中文版.pdf in Resources */,
+				37A22C26225B8EA900C57835 /* swift3.0.rtf in Resources */,
 				37B8176F2147E53100BD26A3 /* test.png in Resources */,
 				372A112F2134262900C72079 /* Myriad.mp3 in Resources */,
 				37BC3E22213EDD8B009B73F0 /* ake.png in Resources */,
@@ -773,12 +779,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Demoexam/Pods-Demoexam-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Highlightr/Highlightr.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Highlightr.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1010,7 +1016,7 @@
 			baseConfigurationReference = 6F7615D0AFB3C7FC055CB1FA /* Pods-Demoexam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: adair520@icloud.com (WV4WCDA3FH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3F25WNTGTD;
 				GCC_PREFIX_HEADER = "";
@@ -1021,6 +1027,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.com.Demoexam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/adairwang/移动开发仓库/eBook/Demoexam/Demoexam/PrefixHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_VERSION = 5.0;
@@ -1033,7 +1040,7 @@
 			baseConfigurationReference = AB6E52AEDA75BB8F2BEFF1AA /* Pods-Demoexam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: adair520@icloud.com (WV4WCDA3FH)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3F25WNTGTD;
 				GCC_PREFIX_HEADER = "";
@@ -1044,6 +1051,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.com.Demoexam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/adairwang/移动开发仓库/eBook/Demoexam/Demoexam/PrefixHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_VERSION = 5.0;

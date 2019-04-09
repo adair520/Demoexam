@@ -7,14 +7,15 @@
 //
 
 import UIKit
-import CryptoSwift
 
 class Decode_andEncode24ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        /*
         //bytes转Data
-        let data = Data(bytes: [0x01, 0x02, 0x03])
+       let data = Data( [0x01, 0x02, 0x03]
+  
         print(data)
         
         //Data转bytes
@@ -33,8 +34,9 @@ class Decode_andEncode24ViewController: UIViewController {
         
         //字符串的base64编码
         let string1 = "hangge.com"
-        let base64String2 = string1.bytes.toBase64() //aGFuZ2dlLmNvbQ==
-        print(data,bytes1,bytes2,hex,bytes3,bytes4,base64String1!,string1,base64String2!)
+        let base64String3 = string1.bytes.toBase64() //aGFuZ2dlLmNvbQ==
+        print(data,bytes1,bytes2,hex,bytes3,bytes4,base64String1!,string1,base64String3!)
+    */
     }
     
     
