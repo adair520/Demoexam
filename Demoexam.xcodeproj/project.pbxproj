@@ -65,6 +65,7 @@
 		377DCEEC216270D5006FBA69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DCEEB216270D5006FBA69 /* ViewController.swift */; };
 		377DCEF0216273B1006FBA69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DCEEF216273B1006FBA69 /* AppDelegate.swift */; };
 		377DCEF62163462A006FBA69 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 377DCEF42163462A006FBA69 /* CoreDataModel.xcdatamodeld */; };
+		3799011222AE9AEF004710E6 /* BaseUI05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799011122AE9AEF004710E6 /* BaseUI05.swift */; };
 		379AC5FB20F3213B0090EACD /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */; };
 		379AC5FF20F3A1AE0090EACD /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */; };
 		379AC60120F3F0070090EACD /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AC60020F3F0070090EACD /* MainNavViewController.swift */; };
@@ -175,6 +176,7 @@
 		377DCEEB216270D5006FBA69 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		377DCEEF216273B1006FBA69 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		377DCEF52163462A006FBA69 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		3799011122AE9AEF004710E6 /* BaseUI05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUI05.swift; sourceTree = "<group>"; };
 		379AC5FA20F3213B0090EACD /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
 		379AC5FE20F3A1AE0090EACD /* CourseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
 		379AC60020F3F0070090EACD /* MainNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
@@ -448,7 +450,7 @@
 				37A6F2BD20E8E3CA00D878AE /* 08-UITableView */,
 				37A6F2A620E0DD5200D878AE /* 07-BasicControls */,
 				37A6F29D20DCBA8C00D878AE /* 06-UITabbar+UINavigation */,
-				37A6F28820D9F7AF00D878AE /* 05-UINavigationController */,
+				37A6F28820D9F7AF00D878AE /* 05-BaseUI */,
 				37A6F28720D9F4AC00D878AE /* 04-UITabbarController */,
 				37A6F28020D9F27800D878AE /* 03-UIScrollView */,
 				37A6F28A20D9F89F00D878AE /* 02-UIViewController */,
@@ -503,14 +505,15 @@
 			path = "04-UITabbarController";
 			sourceTree = "<group>";
 		};
-		37A6F28820D9F7AF00D878AE /* 05-UINavigationController */ = {
+		37A6F28820D9F7AF00D878AE /* 05-BaseUI */ = {
 			isa = PBXGroup;
 			children = (
+				3799011122AE9AEF004710E6 /* BaseUI05.swift */,
 				37A6F2A020E0112700D878AE /* First05ViewController.swift */,
 				37A6F2A220E0113600D878AE /* Second05ViewController.swift */,
 				37A6F2A420E0132A00D878AE /* Test05NavigationViewController.swift */,
 			);
-			path = "05-UINavigationController";
+			path = "05-BaseUI";
 			sourceTree = "<group>";
 		};
 		37A6F28920D9F7F900D878AE /* 01-UIView */ = {
@@ -880,6 +883,7 @@
 				37A6F29A20DC07A700D878AE /* Second04ViewController.swift in Sources */,
 				373269022163B31B00A7D9A2 /* IsTouch10ViewController.swift in Sources */,
 				377DCEF62163462A006FBA69 /* CoreDataModel.xcdatamodeld in Sources */,
+				3799011222AE9AEF004710E6 /* BaseUI05.swift in Sources */,
 				37A6F29F20DCBBD700D878AE /* Test04TabbarViewController.swift in Sources */,
 				373269042163B34000A7D9A2 /* TouchCategory10ViewController.swift in Sources */,
 				3772D26A213567A9004D2C25 /* Network1202ViewController.swift in Sources */,

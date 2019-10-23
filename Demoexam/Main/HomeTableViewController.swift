@@ -10,10 +10,10 @@ import UIKit
 
 class HomeTableViewController: UITableViewController {
     
-    let contentList = ["01.UIView和CALayer","02.UIViewController","03.UIScrollView","04.UITabbarController",
-                       "05UINavigationController","06.UITabbarVC+UINavigationbarVC",
-                       "07.BasicController","08.UITableviewVC","09.UICollectionView","10.触控技术","11.多媒体技术","12.网络请求",
-                       "13.UIWebView+HTML5","14.数据存储","15.多线程技术","16.MapKit","17.图文混排","18.图像和视频处理","19.常用设备",
+    let contentList = ["01.视图和布局","02.控制器","03.滚动视图","04.选项卡",
+                       "05.常用组件","06.通用框架",
+                       "07.基本控制器","08.列表","09.集合技术","10.触控技术","11.多媒体技术","12.网络请求",
+                       "13.网页加载","14.数据存储","15.多线程技术","16.MapKit","17.图文混排","18.图像和视频处理","19.常用设备",
                        "20.Storyboard","21.测试技术","22.内存泄露检测","23.本地化应用","24.加密和安全",
                        "25.Model层框架","26.项目案例","27.打包和发布"]
     
@@ -72,7 +72,7 @@ class HomeTableViewController: UITableViewController {
         let test02 = OldViewController()
         let test03 = PageViewController()
         let test04 = Test04TabbarViewController()
-        let test05 = Test05NavigationViewController()
+        let test05 = BaseUI05()
         let test06 = Test06TabbarViewController()
         let test07 = BasicControlsViewController()
         let test08 = Test08TableviewViewController()

@@ -72,7 +72,12 @@ class CourseTableViewController: UIViewController {
             , animated: true)
     }
     @objc func openRightebookVC(){
-        
+        let path = Bundle.main.path(forResource: "swift.swift", ofType: "swift")
+        let url = URL.init(fileURLWithPath: path!)
+        let data = try!Data(contentsOf: url)
+        let webview = UIWebView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height))
+        webview.load(data, mimeType: "application/pdf", textEncodingName: "utf-8", baseURL: NSURL() as URL)
+        self.view.addSubview(webview)
     }
 }
 
